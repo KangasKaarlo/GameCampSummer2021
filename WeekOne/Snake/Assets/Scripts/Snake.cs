@@ -62,7 +62,9 @@ public class Snake : MonoBehaviour
             player.transform.position.y + dir.y,
             0);
 
+        //Saves the last made move to prevent backtracking
         lastMoveDir = dir;
+
         //wrapping the movement from one edge of the srceen to another
         if (player.transform.position.x > 9)
         {
