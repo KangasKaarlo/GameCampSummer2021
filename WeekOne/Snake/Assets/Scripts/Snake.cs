@@ -6,6 +6,9 @@ public class Snake : MonoBehaviour
 {
     public SnakeSettings settings;
     public GameObject player;
+    
+    public SnakeCollision snakeCollision;
+    public GameObject apple;
     public Vector2 dir;
     public Vector2 lastMoveDir;
     public float timeFromLastStep;
@@ -15,6 +18,7 @@ public class Snake : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Snake");
+        apple = GameObject.Find("Apple");
         dir = Vector2.right;
         lastMoveDir = Vector2.right;
         timeFromLastStep = 0;
@@ -27,6 +31,7 @@ public class Snake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         GetInput();
         if (timeFromLastStep >= settings.stepLength)
         {
@@ -93,7 +98,25 @@ public class Snake : MonoBehaviour
                 0);
         }
     }
-    void GrowSnake()
+    //Eat calls GrowSnake and Food when the player collides with the apple
+    void Eat() 
+    {
+       //OnTriggerEnter2D();
+    }
+    //Food randomly generates a position for the apple, 
+    //and makes sure the apple won't collide with the player when spawned
+    public void MoveFood() 
+    {
+        int foodX = (int)Random.Range(-10, 9);
+        int foodY = (int)Random.Range(-5, 4);
+        apple.transform.position = new Vector3(
+        foodX, foodY, 0
+        );
+
+    }
+    
+    
+    public void GrowSnake()
     {
         GameObject newPart = Instantiate(piece);
         newPart.transform.position = snakePieces[snakePieces.Count - 1].position;
