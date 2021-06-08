@@ -104,5 +104,4 @@ public class Snake : MonoBehaviour
 public struct SnakeSettings
 {
     public float stepLength;
-    public float pylly;
 }
