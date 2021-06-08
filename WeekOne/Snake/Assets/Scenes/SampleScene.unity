@@ -167,7 +167,9 @@ MonoBehaviour:
     pylly: 0
   player: {fileID: 0}
   dir: {x: 0, y: 0}
+  lastMoveDir: {x: 0, y: 0}
   timeFromLastStep: 0
+  piece: {fileID: 6052248391456574039, guid: 29691ec349980cf43b9e204f29274af5, type: 3}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
