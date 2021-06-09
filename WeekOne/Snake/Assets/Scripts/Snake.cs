@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Snake : MonoBehaviour
@@ -14,11 +15,15 @@ public class Snake : MonoBehaviour
     public float timeFromLastStep;
     List<Transform> snakePieces;
     public GameObject piece;
+    public GameObject boom;
+    bool isAlive;
     // Start is called before the first frame update
     void Start()
     {
+        isAlive = true;
         player = GameObject.Find("Snake");
         apple = GameObject.Find("Apple");
+        
         dir = Vector2.right;
         lastMoveDir = Vector2.right;
         timeFromLastStep = 0;
@@ -31,17 +36,27 @@ public class Snake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        GetInput();
-        if (timeFromLastStep >= settings.stepLength)
-        {
-            SnakeMove();
-            timeFromLastStep = 0;
+        if(isAlive) { 
+            GetInput();
+            if (timeFromLastStep >= settings.stepLength)
+            {   
+                
+                SnakeMove();
+                CheckForDeath();
+                timeFromLastStep = 0;
+            }
+            else
+            {
+                timeFromLastStep += Time.deltaTime;
+            }
         }
         else
         {
-            timeFromLastStep += Time.deltaTime;
-        }
+            if(Input.GetKey(KeyCode.Space))
+            {
+                SceneManager.LoadScene("Snake");
+            }
+        }   
     }
     void GetInput()
     {
@@ -116,13 +131,23 @@ public class Snake : MonoBehaviour
         );
 
     }
-    
-    
+
+
     public void GrowSnake()
     {
         GameObject newPart = Instantiate(piece);
         newPart.transform.position = snakePieces[snakePieces.Count - 1].position;
         snakePieces.Add(newPart.transform);
+    }
+    void CheckForDeath()
+    {
+        for (int i = 3; i < snakePieces.Count;  i++)
+        {
+            if (snakePieces[i].position.Equals(snakePieces[0].position))
+            {
+                isAlive = false;
+            }
+        }
     }
 }
 [System.Serializable]

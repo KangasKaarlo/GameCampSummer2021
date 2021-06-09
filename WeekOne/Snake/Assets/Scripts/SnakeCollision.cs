@@ -9,7 +9,7 @@ public class SnakeCollision : MonoBehaviour
     private void Start()
     {
         snake = Camera.main.GetComponent<Snake>();
-          
+        snake.MoveFood();
     }
     private void OnTriggerEnter2D(Collider2D apple) {
         Debug.Log("hit");
