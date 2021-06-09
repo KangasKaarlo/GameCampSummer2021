@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Snake : MonoBehaviour
@@ -17,6 +18,7 @@ public class Snake : MonoBehaviour
     public GameObject piece;
     public GameObject boom;
     bool isAlive;
+    public Text text;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,7 @@ public class Snake : MonoBehaviour
         snakePieces.Add(player.transform);
         GrowSnake();
         GrowSnake();
+        text.gameObject.SetActive(!isAlive);
     }
 
     // Update is called once per frame
@@ -146,6 +149,7 @@ public class Snake : MonoBehaviour
             if (snakePieces[i].position.Equals(snakePieces[0].position))
             {
                 isAlive = false;
+                text.gameObject.SetActive(!isAlive);
             }
         }
     }
