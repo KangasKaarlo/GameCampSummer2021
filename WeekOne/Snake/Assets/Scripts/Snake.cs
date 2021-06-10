@@ -14,12 +14,17 @@ public class Snake : MonoBehaviour
     public Vector2 dir;
     public Vector2 lastMoveDir;
     public float timeFromLastStep;
-    List<Transform> snakePieces;
+    List<GameObject> snakePieces;
     public GameObject piece;
     public GameObject boom;
     public AudioSource ooof;
     bool isAlive;
     public Text text;
+
+    public Sprite head;
+    public Sprite body;
+    public Sprite tail;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,11 +34,12 @@ public class Snake : MonoBehaviour
         dir = Vector2.right;
         lastMoveDir = Vector2.right;
         timeFromLastStep = 0;
-        snakePieces = new List<Transform>();
-        snakePieces.Add(player.transform);
+        snakePieces = new List<GameObject>();
+        snakePieces.Add(player);
         GrowSnake();
         GrowSnake();
         text.gameObject.SetActive(!isAlive);
+        snakePieces[0].GetComponent<SpriteRenderer>().sprite = head;
     }
 
     // Update is called once per frame
@@ -44,8 +50,8 @@ public class Snake : MonoBehaviour
             GetInput();
             if (timeFromLastStep >= settings.stepLength)
             {
-
                 SnakeMove();
+                SetTextures();
                 CheckForDeath();
                 timeFromLastStep = 0;
             }
@@ -82,7 +88,7 @@ public class Snake : MonoBehaviour
 
         for (int i = snakePieces.Count -1 ; i > 0; i--)
         {
-            snakePieces[i].position = snakePieces[i - 1].position;
+            snakePieces[i].transform.position = snakePieces[i - 1].transform.position;
         }
 
         player.transform.position = new Vector3(
@@ -144,19 +150,76 @@ public class Snake : MonoBehaviour
     public void GrowSnake()
     {
         GameObject newPart = Instantiate(piece);
-        newPart.transform.position = snakePieces[snakePieces.Count - 1].position;
-        snakePieces.Add(newPart.transform);
+        newPart.transform.position = snakePieces[snakePieces.Count - 1].transform.position;
+        snakePieces.Add(newPart);
+        snakePieces[snakePieces.Count - 1].SetActive(false);
     }
     void CheckForDeath()
     {
-        for (int i = 3; i < snakePieces.Count;  i++)
+        for (int i = 3; i < snakePieces.Count; i++)
         {
-            if (snakePieces[i].position.Equals(snakePieces[0].position))
+            if (snakePieces[i].transform.position.Equals(snakePieces[0].transform.position))
             {
                 isAlive = false;
                 text.gameObject.SetActive(!isAlive);
                 ooof.Play();
             }
+        }
+    }
+    void SetTextures()
+    {
+        snakePieces[snakePieces.Count - 1].SetActive(true);
+        snakePieces[snakePieces.Count - 2].SetActive(true);
+        //direction of the head
+        snakePieces[0].transform.localEulerAngles = new Vector3(0, 0, 0);
+
+        if (lastMoveDir == Vector2.left)
+        {
+            snakePieces[0].GetComponent<SpriteRenderer>().flipX = true;
+            snakePieces[0].GetComponent<SpriteRenderer>().flipY = true;
+        }
+        else
+        {
+            snakePieces[0].GetComponent<SpriteRenderer>().flipX = false;
+            snakePieces[0].GetComponent<SpriteRenderer>().flipY = false;
+        }
+
+        if (lastMoveDir == Vector2.up)
+        {
+            snakePieces[0].transform.localEulerAngles = new Vector3(0, 0, 90);
+        }
+        else if (lastMoveDir == Vector2.down)
+        {
+            snakePieces[0].transform.localEulerAngles = new Vector3(0, 0, -90);
+        }
+
+
+        //position of the tail
+        snakePieces[snakePieces.Count - 1].GetComponent<SpriteRenderer>().sprite = tail;
+        snakePieces[snakePieces.Count - 1].transform.localEulerAngles = new Vector3(0, 0, 0);
+        
+        if (snakePieces[snakePieces.Count - 2].transform.position == snakePieces[snakePieces.Count - 1].transform.position + Vector3.left)
+        {
+            snakePieces[snakePieces.Count - 1].GetComponent<SpriteRenderer>().flipX = true;
+        } 
+        else
+        {
+            snakePieces[snakePieces.Count - 1].GetComponent<SpriteRenderer>().flipX = false;
+        }
+
+
+        if (snakePieces[snakePieces.Count - 2].transform.position == snakePieces[snakePieces.Count - 1].transform.position + Vector3.up)
+        {
+            snakePieces[snakePieces.Count - 1].transform.localEulerAngles = new Vector3(0, 0, 90);
+        }
+        else if (snakePieces[snakePieces.Count - 2].transform.position == snakePieces[snakePieces.Count - 1].transform.position + Vector3.down)
+        {
+            snakePieces[snakePieces.Count - 1].transform.localEulerAngles = new Vector3(0, 0, -90);
+        }
+
+        for (int i = 1; i < snakePieces.Count-1; i++)
+        {
+            snakePieces[i].GetComponent<SpriteRenderer>().sprite = body;
         }
     }
 }
