@@ -145,7 +145,6 @@ public class Snake : MonoBehaviour
             if(snakePieces[i].transform.position == apple.transform.position)
             {
                 MoveFood();
-                
             }
         }
 
