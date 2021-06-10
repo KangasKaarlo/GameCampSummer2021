@@ -8,7 +8,7 @@ public class Snake : MonoBehaviour
 {
     public SnakeSettings settings;
     public GameObject player;
-    public AudioSource noms;
+    
     public SnakeCollision snakeCollision;
     public GameObject apple;
     public Vector2 dir;
@@ -17,8 +17,12 @@ public class Snake : MonoBehaviour
     List<GameObject> snakePieces;
     public GameObject piece;
     public GameObject boom;
+
+    public AudioSource noms;
     public AudioSource ooof;
+
     bool isAlive;
+
     public Text text;
 
     public Sprite head;
@@ -158,7 +162,7 @@ public class Snake : MonoBehaviour
             {
                 GrowSnake();
                 MoveFood();
-               // noms.Play();
+                noms.Play();
                 
             }
     }
