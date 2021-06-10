@@ -8,7 +8,7 @@ public class Snake : MonoBehaviour
 {
     public SnakeSettings settings;
     public GameObject player;
-    
+    public AudioSource noms;
     public SnakeCollision snakeCollision;
     public GameObject apple;
     public Vector2 dir;
@@ -29,6 +29,7 @@ public class Snake : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         isAlive = true;
         player = GameObject.Find("Snake");
         apple = GameObject.Find("Apple");
@@ -51,6 +52,7 @@ public class Snake : MonoBehaviour
             GetInput();
             if (timeFromLastStep >= settings.stepLength)
             {
+                SnakeEat();
                 SnakeMove();
                 SetTextures();
                 CheckForDeath();
@@ -150,7 +152,16 @@ public class Snake : MonoBehaviour
 
     }
 
-
+    void SnakeEat()
+    {
+        if(snakePieces[0].transform.position == apple.transform.position)
+            {
+                GrowSnake();
+                MoveFood();
+               // noms.Play();
+                
+            }
+    }
     public void GrowSnake()
     {
         GameObject newPart = Instantiate(piece);

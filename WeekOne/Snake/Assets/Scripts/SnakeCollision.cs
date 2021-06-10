@@ -6,15 +6,16 @@ public class SnakeCollision : MonoBehaviour
 {
     public Snake snake;
     public Texture2D myTexture;
-    public AudioSource eatingSound;
+   // public AudioSource eatingSound;
     private void Start()
     {
         snake = Camera.main.GetComponent<Snake>();
         snake.MoveFood();
     }
-    private void OnTriggerEnter2D(Collider2D apple) {
+   /* private void OnTriggerEnter2D(Collider2D apple) {
+        Debug.Log("hit");
         snake.GrowSnake();
         snake.MoveFood();
         eatingSound.Play();
-    }
+    }*/
 }
