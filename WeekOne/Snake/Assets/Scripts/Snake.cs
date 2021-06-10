@@ -17,6 +17,7 @@ public class Snake : MonoBehaviour
     List<Transform> snakePieces;
     public GameObject piece;
     public GameObject boom;
+    public AudioSource ooof;
     bool isAlive;
     public Text text;
     // Start is called before the first frame update
@@ -25,7 +26,6 @@ public class Snake : MonoBehaviour
         isAlive = true;
         player = GameObject.Find("Snake");
         apple = GameObject.Find("Apple");
-        
         dir = Vector2.right;
         lastMoveDir = Vector2.right;
         timeFromLastStep = 0;
@@ -39,11 +39,12 @@ public class Snake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isAlive) { 
+        if (isAlive)
+        {
             GetInput();
             if (timeFromLastStep >= settings.stepLength)
-            {   
-                
+            {
+
                 SnakeMove();
                 CheckForDeath();
                 timeFromLastStep = 0;
@@ -55,11 +56,15 @@ public class Snake : MonoBehaviour
         }
         else
         {
-            if(Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space))
             {
                 SceneManager.LoadScene("Snake");
             }
-        }   
+        }
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
     void GetInput()
     {
@@ -150,6 +155,7 @@ public class Snake : MonoBehaviour
             {
                 isAlive = false;
                 text.gameObject.SetActive(!isAlive);
+                ooof.Play();
             }
         }
     }
