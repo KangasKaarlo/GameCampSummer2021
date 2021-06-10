@@ -13,7 +13,6 @@ public class SnakeCollision : MonoBehaviour
         snake.MoveFood();
     }
     private void OnTriggerEnter2D(Collider2D apple) {
-        Debug.Log("hit");
         snake.GrowSnake();
         snake.MoveFood();
         eatingSound.Play();

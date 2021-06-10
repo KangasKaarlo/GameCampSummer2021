@@ -130,11 +130,7 @@ public class Snake : MonoBehaviour
                 0);
         }
     }
-    //Eat calls GrowSnake and Food when the player collides with the apple
-    void Eat() 
-    {
-       //OnTriggerEnter2D();
-    }
+    
     //Food randomly generates a position for the apple, 
     //and makes sure the apple won't collide with the player when spawned
     public void MoveFood() 
@@ -144,6 +140,14 @@ public class Snake : MonoBehaviour
         apple.transform.position = new Vector3(
         foodX, foodY, 0
         );
+        for(int i = 0; i<snakePieces.Count; i++)
+        {
+            if(snakePieces[i].transform.position == apple.transform.position)
+            {
+                MoveFood();
+                
+            }
+        }
 
     }
 
@@ -254,7 +258,7 @@ public class Snake : MonoBehaviour
             }
             else if (snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.left && snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.up)
             {
-                //TÄHÄN REVERSE SHADOW
+                //Tï¿½Hï¿½N REVERSE SHADOW
                 snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
                 snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
                 snakePieces[i].GetComponent<SpriteRenderer>().flipY = false;
@@ -262,7 +266,7 @@ public class Snake : MonoBehaviour
             }
             else if (snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.right && snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.up)
             {
-                //TÄHÄN REVERSE SHDOW
+                //Tï¿½Hï¿½N REVERSE SHDOW
                 snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
                 snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
                 snakePieces[i].GetComponent<SpriteRenderer>().flipY = false;
@@ -284,7 +288,7 @@ public class Snake : MonoBehaviour
             }
             else if (snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.right && snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.down)
             {
-                //TÄHÄN REVERSE SHDOW
+                //Tï¿½Hï¿½N REVERSE SHDOW
                 snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
                 snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
                 snakePieces[i].GetComponent<SpriteRenderer>().flipY = true;
@@ -292,7 +296,7 @@ public class Snake : MonoBehaviour
             }
             else if (snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.left && snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.down)
             {
-                //TÄHÄN REVERSE SHDOW
+                //Tï¿½Hï¿½N REVERSE SHDOW
                 snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
                 snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
                 snakePieces[i].GetComponent<SpriteRenderer>().flipY = true;
