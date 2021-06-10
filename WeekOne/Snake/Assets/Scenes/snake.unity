@@ -386,6 +386,7 @@ MonoBehaviour:
   head: {fileID: 21300000, guid: a85db8dcddc24f246a2ac3b0e29967e0, type: 3}
   body: {fileID: 21300000, guid: f502c1f72ad15724c8ebebdf2f47de18, type: 3}
   tail: {fileID: 21300000, guid: 18508404f0f14dd4a9c6fc11a890b060, type: 3}
+  corner: {fileID: 21300000, guid: 845492407fce00b47811dfcba43e4076, type: 3}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

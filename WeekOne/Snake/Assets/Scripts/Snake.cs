@@ -24,6 +24,7 @@ public class Snake : MonoBehaviour
     public Sprite head;
     public Sprite body;
     public Sprite tail;
+    public Sprite corner;
 
     // Start is called before the first frame update
     void Start()
@@ -197,14 +198,16 @@ public class Snake : MonoBehaviour
         //position of the tail
         snakePieces[snakePieces.Count - 1].GetComponent<SpriteRenderer>().sprite = tail;
         snakePieces[snakePieces.Count - 1].transform.localEulerAngles = new Vector3(0, 0, 0);
-        
+
         if (snakePieces[snakePieces.Count - 2].transform.position == snakePieces[snakePieces.Count - 1].transform.position + Vector3.left)
         {
             snakePieces[snakePieces.Count - 1].GetComponent<SpriteRenderer>().flipX = true;
-        } 
+            snakePieces[snakePieces.Count - 1].GetComponent<SpriteRenderer>().flipY = true;
+        }
         else
         {
             snakePieces[snakePieces.Count - 1].GetComponent<SpriteRenderer>().flipX = false;
+            snakePieces[snakePieces.Count - 1].GetComponent<SpriteRenderer>().flipY = false;
         }
 
 
@@ -217,10 +220,97 @@ public class Snake : MonoBehaviour
             snakePieces[snakePieces.Count - 1].transform.localEulerAngles = new Vector3(0, 0, -90);
         }
 
-        for (int i = 1; i < snakePieces.Count-1; i++)
+
+        //position for the body
+        for (int i = 1; i < snakePieces.Count - 1; i++)
         {
             snakePieces[i].GetComponent<SpriteRenderer>().sprite = body;
+            if (snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.up && snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.down)
+            {
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 90);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = false;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.up && snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.down)
+            {
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 90);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = true;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.left && snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.right)
+            {
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = true;
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.left && snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.right)
+            {
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = false;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.left && snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.up)
+            {
+                snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = false;
+                snakePieces[i].GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.left && snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.up)
+            {
+                //TÄHÄN REVERSE SHADOW
+                snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = false;
+                snakePieces[i].GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.right && snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.up)
+            {
+                //TÄHÄN REVERSE SHDOW
+                snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = false;
+                snakePieces[i].GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.right && snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.up)
+            {
+                snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = false;
+                snakePieces[i].GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.right && snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.down)
+            {
+                snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = true;
+                snakePieces[i].GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.right && snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.down)
+            {
+                //TÄHÄN REVERSE SHDOW
+                snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = true;
+                snakePieces[i].GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.left && snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.down)
+            {
+                //TÄHÄN REVERSE SHDOW
+                snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = true;
+                snakePieces[i].GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (snakePieces[i].transform.position == snakePieces[i + 1].transform.position + Vector3.left && snakePieces[i].transform.position == snakePieces[i - 1].transform.position + Vector3.down)
+            {
+
+                snakePieces[i].GetComponent<SpriteRenderer>().sprite = corner;
+                snakePieces[i].transform.localEulerAngles = new Vector3(0, 0, 0);
+                snakePieces[i].GetComponent<SpriteRenderer>().flipY = true;
+                snakePieces[i].GetComponent<SpriteRenderer>().flipX = false;
+            }
+
         }
+
+
+
     }
 }
 [System.Serializable]
