@@ -30,7 +30,6 @@ public class Snake : MonoBehaviour
     public Sprite tail;
     public Sprite corner;
 
-    // Start is called before the first frame update
     void Start()
     {
         
