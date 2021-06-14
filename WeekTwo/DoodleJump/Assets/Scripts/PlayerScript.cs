@@ -39,7 +39,7 @@ public class PlayerScript : MonoBehaviour
     private bool IsGrounded()
     {
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down, .1f, platformsLayerMask);
-        Debug.Log(raycastHit2d.collider);
+        //Debug.Log(raycastHit2d.collider);
         return raycastHit2d.collider != null;
     }
 }
