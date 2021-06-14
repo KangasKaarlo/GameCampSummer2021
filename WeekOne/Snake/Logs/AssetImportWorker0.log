@@ -15,11 +15,11 @@ C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekOne/Snake
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62892
+55306
 Successfully changed project path to: C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekOne/Snake
 C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekOne/Snake
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,127 +35,111 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001843 seconds.
+Registered in 0.002427 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
+- Completed reload, in  1.106 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003898 seconds.
+Registered in 0.004787 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.141 seconds
+- Completed reload, in  1.241 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.9 MB.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
 System memory in use after: 94.9 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2528.
-Total: 2.095100 ms (FindLiveObjects: 0.193600 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.740900 ms  DeleteObjects: 0.105700 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 2.262700 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.843100 ms  DeleteObjects: 0.140400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Textures/snake_turn_left_corner_hadow.png
-  artifactKey: Guid(aba2fb20d9522744197fb71e93b52dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/snake_turn_left_corner_hadow.png using Guid(aba2fb20d9522744197fb71e93b52dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcffb5a28a1635166e8443f33363ad1') in 0.113822 seconds
-  Import took 0.117173 seconds .
+  path: Assets/Scripts/Snake.cs
+  artifactKey: Guid(cfcb4e2a52570e248b3e853aca1a9bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snake.cs using Guid(cfcb4e2a52570e248b3e853aca1a9bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bf88565552cb94a95ba15be2e1696c') in 0.027673 seconds
+  Import took 0.031224 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Textures/snake_head.png
-  artifactKey: Guid(a85db8dcddc24f246a2ac3b0e29967e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/snake_head.png using Guid(a85db8dcddc24f246a2ac3b0e29967e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f169e7c7b4bdd66ca538de57de663c') in 0.010072 seconds
-  Import took 0.013136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Textures/snake_turn.png
-  artifactKey: Guid(845492407fce00b47811dfcba43e4076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/snake_turn.png using Guid(845492407fce00b47811dfcba43e4076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c70a6e70448aacdef92529bb06a64d') in 0.010600 seconds
-  Import took 0.013561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Textures/snake_turn_right_corner_shadow.png
-  artifactKey: Guid(557c054e47901fc4eaa8583369881231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/snake_turn_right_corner_shadow.png using Guid(557c054e47901fc4eaa8583369881231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ffd55119534bd7d45914342b0e6644') in 0.010555 seconds
-  Import took 0.013676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Textures/snake_torso.png
-  artifactKey: Guid(f502c1f72ad15724c8ebebdf2f47de18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/snake_torso.png using Guid(f502c1f72ad15724c8ebebdf2f47de18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352b7878511ed4fa5487e26175fde442') in 0.009943 seconds
-  Import took 0.013067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Textures/apple.png
-  artifactKey: Guid(d5caae0d1a6d8b44db0843e49a3f0ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/apple.png using Guid(d5caae0d1a6d8b44db0843e49a3f0ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4660610314c9fb60c16b5920eece409') in 0.009473 seconds
-  Import took 0.012843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Textures/play.png
-  artifactKey: Guid(0dd5a59ead50a2044883b130d24ed526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/play.png using Guid(0dd5a59ead50a2044883b130d24ed526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199ef9ad81ea407530773b699fa76a7b') in 0.015584 seconds
-  Import took 0.018874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Textures/snake_tail.png
-  artifactKey: Guid(18508404f0f14dd4a9c6fc11a890b060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/snake_tail.png using Guid(18508404f0f14dd4a9c6fc11a890b060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7095f8bef5619bea8ca5b022db0face') in 0.009426 seconds
-  Import took 0.012346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Textures/snake_tausta.png
-  artifactKey: Guid(3b27e1e845ad0de418a9723ecd587f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/snake_tausta.png using Guid(3b27e1e845ad0de418a9723ecd587f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c330d23e32839dd685fd2a044c44a55') in 0.011830 seconds
-  Import took 0.015019 seconds .
+  Time since last request: 46.544430 seconds.
+  path: Assets/Scripts/Snake.cs
+  artifactKey: Guid(cfcb4e2a52570e248b3e853aca1a9bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snake.cs using Guid(cfcb4e2a52570e248b3e853aca1a9bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab71cf52981bf9b10bfc1dfc9c6c4f') in 0.002394 seconds
+  Import took 0.005899 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003678 seconds.
+Registered in 0.003582 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.994 seconds
+- Completed reload, in  1.025 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2533.
+Total: 2.062900 ms (FindLiveObjects: 0.199700 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.711400 ms  DeleteObjects: 0.096700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003613 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.9 MB.
-System memory in use after: 97.9 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.0 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2542.
-Total: 2.379000 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.054200 ms MarkObjects: 1.989000 ms  DeleteObjects: 0.119800 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2537.
+Total: 2.135300 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.053300 ms MarkObjects: 1.773800 ms  DeleteObjects: 0.106500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2541.
+Total: 2.165300 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.794200 ms  DeleteObjects: 0.105300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -2,8 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - MainMenu
+    - MusicManager
     - Snake
     - SnakeCollision
+    - SnakeRenderHelper
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -49,8 +51,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1494}
     - Class: 114
       Script: {instanceID: 1508}
     - Class: 114
@@ -62,11 +70,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3340}
+      Script: {instanceID: 3230}
     - Class: 114
-      Script: {instanceID: 20894}
+      Script: {instanceID: 3342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -117,9 +125,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3230}
     - Class: 114
-      Script: {instanceID: 4456}
+      Script: {instanceID: 4458}
+    - Class: 114
+      Script: {instanceID: 21392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -145,6 +155,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenu
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -279,7 +295,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 12429cad97db8db48c823e97d820c2d3
+      Hash: 1e44d1d86d87fb79dd53bfeffbbfa0d2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SnakeCollision
@@ -361,6 +377,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 0bf38ff46b8b3256e66a09e805d8a2ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MusicManager
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -543,7 +565,7 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
-      Hash: 5b1fe19b0927ff84e8a9cc2d033f7299
+      Hash: 0c6cff1c01f32c0eeee75c886a595248
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Snake
@@ -669,12 +691,12 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 1d036e854169726827539b71a6df7080
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MainMenu
+    className: SnakeRenderHelper
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/snake.unity
-  playerPath: "C:/Users/Kaarlo/Documents/TAMK2021/Kes\xE42021/TestBuildSnake/Snake.exe"
+  playerPath: "C:/Users/Kaarlo/Documents/TAMK2021/Kes\xE42021/Team7_week1/Snake.exe"
