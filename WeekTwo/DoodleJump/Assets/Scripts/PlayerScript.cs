@@ -11,6 +11,7 @@ public class PlayerScript : MonoBehaviour
     private Rigidbody2D rigidbody2d;
     private BoxCollider2D boxCollider2d;
     public float jumpVelocity;
+    public ParticleSystem dust;
     void Start()
     {
         player = GameObject.Find("Player");
@@ -19,21 +20,23 @@ public class PlayerScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         dir = Input.GetAxisRaw("Horizontal");
-        player.transform.position = transform.position + new Vector3(Mathf.Clamp(dir * speed * Time.deltaTime, -5, 5), 0, 0);
+        player.transform.position = transform.position + new Vector3(dir * speed * Time.deltaTime, 0, 0);
+        player.transform.position = new Vector3(Mathf.Clamp(player.transform.position.x, -7, 7),
+                                                player.transform.position.y,
+                                                player.transform.position.z);
 
         if (IsGrounded() && player.GetComponent<Rigidbody2D>().velocity.y <= 0)
         {
-            rigidbody2d.velocity = Vector2.up * jumpVelocity;
+            Jump();
         }
-
-        
     }
     void Jump()
     {
-        
+        rigidbody2d.velocity = Vector2.up * jumpVelocity;
+        dust.Play();
     }
     //Checks if the player is gounded
     private bool IsGrounded()
