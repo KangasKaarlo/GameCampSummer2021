@@ -12,6 +12,8 @@ public class PlayerScript : MonoBehaviour
     private BoxCollider2D boxCollider2d;
     public float jumpVelocity;
     public ParticleSystem dust;
+    public Vector2 velocity;
+
     void Start()
     {
         player = GameObject.Find("Player");
@@ -33,10 +35,11 @@ public class PlayerScript : MonoBehaviour
             Jump();
         }
         //Improved falling
-        if(rigidbody2d.velocity.y < 0)
+        if (rigidbody2d.velocity.y < 0)
         {
-            rigidbody2d.velocity = Vector2.up * Physics2D.gravity.y * (1f) ;
+            rigidbody2d.velocity += Vector2.up * Physics2D.gravity.y * (1.1f) * Time.deltaTime;
         }
+        velocity = rigidbody2d.velocity;
     }
     void Jump()
     {
