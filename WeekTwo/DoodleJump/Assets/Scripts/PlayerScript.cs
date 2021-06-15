@@ -32,11 +32,17 @@ public class PlayerScript : MonoBehaviour
         {
             Jump();
         }
+        //Improved falling
+        if(rigidbody2d.velocity.y < 0)
+        {
+            rigidbody2d.velocity = Vector2.up * Physics2D.gravity.y * (1f) ;
+        }
     }
     void Jump()
     {
         rigidbody2d.velocity = Vector2.up * jumpVelocity;
         dust.Play();
+        
     }
     //Checks if the player is gounded
     private bool IsGrounded()
