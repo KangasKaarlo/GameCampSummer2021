@@ -34,7 +34,6 @@ public class FakePlatforms : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hep");
         if (player.GetComponent<Rigidbody2D>().velocity.y <= 0)
         {
             isFading = true;
