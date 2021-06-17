@@ -16,11 +16,11 @@ public class MovingPlatformScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x >3f)
+        if (transform.position.x >6.5f)
         {
             moveRight = false;
         }
-        if (transform.position.x < -3f)
+        if (transform.position.x < -6.5f)
         {
             moveRight = true;
         }

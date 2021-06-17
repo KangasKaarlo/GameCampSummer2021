@@ -26,9 +26,21 @@ public class PlayerScript : MonoBehaviour
     {
         dir = Input.GetAxisRaw("Horizontal");
         player.transform.position = transform.position + new Vector3(dir * speed * Time.deltaTime, 0, 0);
-        player.transform.position = new Vector3(Mathf.Clamp(player.transform.position.x, -7, 7),
+        player.transform.position = new Vector3(player.transform.position.x,
                                                 player.transform.position.y,
                                                 player.transform.position.z);
+        if (player.transform.position.x > 7.5f)
+        {
+            player.transform.position = new Vector3(-7.5f,
+                                                player.transform.position.y,
+                                                player.transform.position.z);
+        }
+        else if ((player.transform.position.x < -7.5f))
+        {
+            player.transform.position = new Vector3(7.5f,
+                                                player.transform.position.y,
+                                                player.transform.position.z);
+        }
 
         if (IsGrounded() && player.GetComponent<Rigidbody2D>().velocity.y <= 0)
         {
