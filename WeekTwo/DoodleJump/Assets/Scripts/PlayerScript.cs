@@ -13,6 +13,8 @@ public class PlayerScript : MonoBehaviour
     public float jumpVelocity;
     public ParticleSystem dust;
     public Vector2 velocity;
+    public Sprite fallSprite;
+    public Sprite landSprite;
 
     void Start()
     {
@@ -49,9 +51,26 @@ public class PlayerScript : MonoBehaviour
         //Improved falling
         if (rigidbody2d.velocity.y < 0)
         {
+
             rigidbody2d.velocity += Vector2.up * Physics2D.gravity.y * (1.1f) * Time.deltaTime;
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = fallSprite;
+        }
+        else
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = landSprite;
         }
         velocity = rigidbody2d.velocity;
+
+        Vector3 characterScale = transform.localScale;
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            characterScale.x = 1;
+        }
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            characterScale.x = -1;
+        }
+        transform.localScale = characterScale;
     }
     void Jump()
     {

@@ -5319,6 +5319,14 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7812640916037911685, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911685, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911685, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.16
       objectReference: {fileID: 0}
@@ -5357,6 +5365,30 @@ PrefabInstance:
     - target: {fileID: 7812640916037911685, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911686, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911686, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911686, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911686, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911686, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911687, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
@@ -5652,6 +5684,8 @@ MonoBehaviour:
   jumpVelocity: 13.5
   dust: {fileID: 136701957}
   velocity: {x: 0, y: -13.222434}
+  fallSprite: {fileID: 21300000, guid: ef1bd8f8d77a4814d8fddced5c5b3e40, type: 3}
+  landSprite: {fileID: 21300000, guid: db1723dae8bf7074eb160b30174716b6, type: 3}
 --- !u!1 &816663441
 GameObject:
   m_ObjectHideFlags: 0
@@ -6235,6 +6269,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3318787122825068479, guid: b4e427ff060cad84597a6281ebbc7de7, type: 3}
+      propertyPath: m_Size.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3318787122825068479, guid: b4e427ff060cad84597a6281ebbc7de7, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.23
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4e427ff060cad84597a6281ebbc7de7, type: 3}
 --- !u!1001 &1902582155
@@ -6292,6 +6334,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911686, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812640916037911686, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5db3cfa78862e1d469d682766aba5cd3, type: 3}
 --- !u!1 &2052869669
@@ -6430,11 +6480,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3318787122825068479, guid: b4e427ff060cad84597a6281ebbc7de7, type: 3}
       propertyPath: m_Size.y
-      value: 0.5
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3318787122825068479, guid: b4e427ff060cad84597a6281ebbc7de7, type: 3}
       propertyPath: m_Offset.y
-      value: 0.25
+      value: 0.23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4e427ff060cad84597a6281ebbc7de7, type: 3}
