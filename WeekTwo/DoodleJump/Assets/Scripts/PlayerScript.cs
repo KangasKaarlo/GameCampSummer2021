@@ -28,9 +28,9 @@ public class PlayerScript : MonoBehaviour
     {
         dir = Input.GetAxisRaw("Horizontal");
         player.transform.position = transform.position + new Vector3(dir * speed * Time.deltaTime, 0, 0);
-        player.transform.position = new Vector3(player.transform.position.x,
+        /*player.transform.position = new Vector3(player.transform.position.x,
                                                 player.transform.position.y,
-                                                player.transform.position.z);
+                                                player.transform.position.z);/**/
         if (player.transform.position.x > 7.5f)
         {
             player.transform.position = new Vector3(-7.5f,
@@ -54,6 +54,9 @@ public class PlayerScript : MonoBehaviour
 
             rigidbody2d.velocity += Vector2.up * Physics2D.gravity.y * (1.1f) * Time.deltaTime;
             this.gameObject.GetComponent<SpriteRenderer>().sprite = fallSprite;
+            player.transform.position = new Vector3(player.transform.position.x,
+                                                player.transform.position.y,
+                                                1);
         }
         else
         {

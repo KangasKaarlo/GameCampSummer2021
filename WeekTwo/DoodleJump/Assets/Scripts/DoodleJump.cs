@@ -18,6 +18,7 @@ public class DoodleJump : MonoBehaviour
     public Text endDisplay1;
     public Text endDisplay2;
     bool isAlive;
+    public AudioSource auts;
     // Start is called before the first frame update
     void Start()
     {
@@ -63,6 +64,7 @@ public class DoodleJump : MonoBehaviour
             if (player.transform.position.y < this.transform.position.y - 9)
             {
                 isAlive = false;
+                auts.Play();
             }
         }
         else
