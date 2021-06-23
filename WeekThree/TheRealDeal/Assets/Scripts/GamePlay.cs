@@ -5,13 +5,18 @@ using UnityEngine;
 public class GamePlay : MonoBehaviour
 {
     public GameObject player;
+    public GameObject bullet;
     public float playerSpeed;
     public float cameraSpeed;
     public float deltatime;
     public Vector2 cameraDimensions;
+    public float timeFromLastShot;
+    public float fireRate;
     // Start is called before the first frame update
     void Start()
     {
+        timeFromLastShot = 0f;
+        fireRate = 0.1f;
         deltatime = Time.deltaTime;
         cameraDimensions = new Vector2 (Camera.main.orthographicSize * 1.77f, Camera.main.orthographicSize);
     }
@@ -21,6 +26,17 @@ public class GamePlay : MonoBehaviour
     {
         deltatime = Time.deltaTime;
         PlayerMovement();
+        if(timeFromLastShot >= fireRate)
+        {
+            Shoot();
+            timeFromLastShot = 0;
+        }
+        else
+        {
+            timeFromLastShot += Time.deltaTime;
+
+        }
+        
     }
     private void LateUpdate()
     {
@@ -40,5 +56,12 @@ public class GamePlay : MonoBehaviour
     {
         return new Vector3(Mathf.Clamp(location.x, -cameraDimensions.x + scale.x / 2 + this.transform.position.x, cameraDimensions.x - scale.x / 2 + this.transform.position.x),
                             Mathf.Clamp(location.y, -cameraDimensions.y + scale.y / 2, cameraDimensions.y - scale.y / 2), location.z);
+    }
+    void Shoot()
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Instantiate(bullet, new Vector3(player.transform.position.x + 2f, player.transform.position.y, 0), Quaternion.identity);
+        }
     }
 }

@@ -221,10 +221,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1003648098}
+  bullet: {fileID: 6442975682231285154, guid: 0a64ed072a2c5784a9455717151a5ca7, type: 3}
   playerSpeed: 5.5
   cameraSpeed: 5
   deltatime: 0
   cameraDimensions: {x: 0, y: 0}
+  timeFromLastShot: 0
+  fireRate: 0
 --- !u!114 &513154526
 MonoBehaviour:
   m_ObjectHideFlags: 0

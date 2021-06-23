@@ -9,9 +9,11 @@ public class Bullet : MonoBehaviour
     public float cameraSpeed;
     public GamePlay main;
     float deltatime;
+    
     // Start is called before the first frame update
     void Start()
     {
+        camera = GameObject.Find("Main Camera");
         main = camera.GetComponent<GamePlay>();
         cameraSpeed = main.cameraSpeed;
         deltatime = main.deltatime;
@@ -26,6 +28,15 @@ public class Bullet : MonoBehaviour
         
         Debug.Log(cameraSpeed);
         Debug.Log(bulletSpeed);
+        OutOfBounds();
 
     }
+    void OutOfBounds()
+    {
+        if (this.transform.position.x > main.cameraDimensions.x + camera.transform.position.x +1 )
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
 }
