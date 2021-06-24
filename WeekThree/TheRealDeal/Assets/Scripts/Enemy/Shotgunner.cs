@@ -14,7 +14,7 @@ public class Shotgunner : Enemy
             {
                 transform.position += new Vector3(main.cameraSpeed * main.deltatime, exitSpeed * main.deltatime, 0);
             } 
-            else if (numberOfShots >= 3 && this.transform.position.y < 0)
+            else if (numberOfShots >= 2 && this.transform.position.y < 0)
             {
                 transform.position += new Vector3(main.cameraSpeed * main.deltatime, -exitSpeed * main.deltatime, 0);
             }

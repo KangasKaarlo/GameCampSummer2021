@@ -11,6 +11,6 @@ public class BasicEnemy : Enemy
 
     public override float[] ShootingPattern()
     {
-        return new float[] {0};
+        return new float[] {};
     }
 }

@@ -51,9 +51,12 @@ public class PlayerHitReg : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bullet")
         {
-            main.playerHealth--;
-            Destroy(collision.gameObject);
-            explosion.Play();
+            if (!collision.GetComponent<Bullet>().playerBullet)
+            {
+                main.playerHealth--;
+                Destroy(collision.gameObject);
+                explosion.Play();
+            }
         }
     }
 }

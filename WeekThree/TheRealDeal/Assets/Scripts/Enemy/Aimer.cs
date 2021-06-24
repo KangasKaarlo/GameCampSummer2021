@@ -28,13 +28,6 @@ public class Aimer : Enemy
         //return new float[] { AngleBetweenVector2(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(player.transform.position.x, player.transform.position.y)) };
         return new float[] { AngleInDeg(this.transform.position, player.transform.position) };
     }
-    private float AngleBetweenVector2(Vector2 vec1, Vector2 vec2)
-    {
-        Vector2 diference = vec2 - vec1;
-        float sign = (vec2.y < vec1.y) ? -1.0f : 1.0f;
-        return Vector2.Angle(Vector2.right, diference) * sign;
-    }
-
     public static float AngleInDeg(Vector3 vec1, Vector3 vec2)
     {
         return AngleInRad(vec1, vec2) * 180 / Mathf.PI;
