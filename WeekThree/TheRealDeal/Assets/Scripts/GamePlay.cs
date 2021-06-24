@@ -12,11 +12,12 @@ public class GamePlay : MonoBehaviour
     public Vector2 cameraDimensions;
     public float timeFromLastShot;
     public float fireRate;
+    public int playerHealth;
     // Start is called before the first frame update
     void Start()
     {
         timeFromLastShot = 0f;
-        fireRate = 0.1f;
+        fireRate = 0.2f;
         deltatime = Time.deltaTime;
         cameraDimensions = new Vector2 (Camera.main.orthographicSize * 1.77f, Camera.main.orthographicSize);
     }
@@ -26,17 +27,16 @@ public class GamePlay : MonoBehaviour
     {
         deltatime = Time.deltaTime;
         PlayerMovement();
-        if(timeFromLastShot >= fireRate)
+        if (timeFromLastShot >= fireRate)
         {
             Shoot();
             timeFromLastShot = 0;
         }
         else
         {
-            timeFromLastShot += Time.deltaTime;
+            timeFromLastShot += deltatime;
 
         }
-        
     }
     private void LateUpdate()
     {
@@ -61,7 +61,12 @@ public class GamePlay : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            Instantiate(bullet, new Vector3(player.transform.position.x + 2f, player.transform.position.y, 0), Quaternion.identity);
+            GameObject tmp = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y, 0), Quaternion.identity);
+            tmp.GetComponent<Bullet>().playerBullet = true;
+            tmp.GetComponent<Bullet>().angle = 0;
         }
     }
+         Vector2 VectorFromAngle (float theta) {
+         return new Vector2 (Mathf.Cos(theta), Mathf.Sin(theta)); // Trig is fun
+     }
 }
