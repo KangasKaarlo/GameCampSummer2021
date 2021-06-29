@@ -14,7 +14,7 @@ public class Sniper : Enemy
 
     override public void Shoot(float[] angles)
     {
-        deltatime = Time.deltaTime;
+        deltatime = main.deltatime;
         burst = true;
         
         if (timeFromLastShot > 2f)
@@ -30,10 +30,10 @@ public class Sniper : Enemy
         } 
         if (burst == true)
         {
-        for (int i = 0; i < angles.Length; i++)
-        {        
+            for (int i = 0; i < angles.Length; i++)
+            {        
             
-                GameObject newBullet = Instantiate(bullet, new Vector3(this.transform.position.x - 1f, this.transform.position.y, 0), Quaternion.identity);
+            GameObject newBullet = Instantiate(bullet, new Vector3(this.transform.position.x - 1f, this.transform.position.y, 0), Quaternion.identity);
             newBullet.GetComponent<Bullet>().playerBullet = false;
             newBullet.GetComponent<Bullet>().bulletBaseSpeed = -newBullet.GetComponent<Bullet>().bulletBaseSpeed;
             newBullet.GetComponent<Bullet>().angle = angles[i];

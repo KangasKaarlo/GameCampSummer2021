@@ -96,12 +96,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ef9badc7c25ff4c922552fa527718d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletBaseSpeed: 14
+  bulletBaseSpeed: 10
   camera: {fileID: 0}
   main: {fileID: 0}
   cameraSpeed: 0
   playerBullet: 0
   angle: 0
+  playerColor: {r: 1, g: 0, b: 0.93984413, a: 1}
+  enemyColor: {r: 0, g: 1, b: 1, a: 1}
+  playerBulletMultiplier: 4
 --- !u!61 &-5981061007908526341
 BoxCollider2D:
   m_ObjectHideFlags: 0

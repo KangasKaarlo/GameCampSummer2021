@@ -13,6 +13,7 @@ public class GamePlay : MonoBehaviour
     public float timeFromLastShot;
     public float fireRate;
     public int playerHealth;
+    public float playerSpeedMultiplier;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,12 +41,24 @@ public class GamePlay : MonoBehaviour
     }
     private void LateUpdate()
     {
-        CameraMovement();
+        if(playerHealth > 0)
+        {
+            CameraMovement();
+        }
     }
     void PlayerMovement()
     {
+        float trueSpeed;
+        if(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            trueSpeed = playerSpeed * playerSpeedMultiplier;
+        } else
+        {
+            trueSpeed = playerSpeed;
+        }
         Vector2 dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        player.transform.position = ClampPositionToCamera(player.transform.position + new Vector3(dir.x * playerSpeed * deltatime, dir.y * playerSpeed * deltatime, 0), player.transform.localScale);
+
+        player.transform.position = ClampPositionToCamera(player.transform.position + new Vector3(dir.x * trueSpeed * deltatime, dir.y * trueSpeed * deltatime, 0), player.transform.localScale);
     }
     void CameraMovement()
     {

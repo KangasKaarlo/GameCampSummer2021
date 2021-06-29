@@ -10,9 +10,11 @@ public class Bullet : MonoBehaviour
     public float cameraSpeed;
     public bool playerBullet;
     public float angle;
-
+    public Color playerColor;
+    public Color enemyColor;
     float deltatime;
-    
+    public float playerBulletMultiplier;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,8 +26,14 @@ public class Bullet : MonoBehaviour
         {
             bulletBaseSpeed = -bulletBaseSpeed;
             GetComponent<BoxCollider2D>().size = new Vector3(0.5f, 0.5f, 1);
+            this.GetComponent<Renderer>().material.color = enemyColor;
         }
-        
+        else
+        {
+            this.GetComponent<Renderer>().material.color = playerColor;
+            bulletBaseSpeed = bulletBaseSpeed * playerBulletMultiplier;
+        }
+
     }
 
     // Update is called once per frame
