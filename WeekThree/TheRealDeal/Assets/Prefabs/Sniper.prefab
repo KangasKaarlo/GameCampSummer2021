@@ -22,9 +22,11 @@ MonoBehaviour:
   player: {fileID: 0}
   bullet: {fileID: 6442975682231285154, guid: 0a64ed072a2c5784a9455717151a5ca7, type: 3}
   timeFromLastShot: 0
-  fireRate: 0.1
+  fireRate: 0.05
   deltatime: 0
   burst: 0
+  timer: 0
+  fireRate2: 0.5
 --- !u!1001 &1779646391234242700
 PrefabInstance:
   m_ObjectHideFlags: 0
