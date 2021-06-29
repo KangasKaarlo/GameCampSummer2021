@@ -85,12 +85,16 @@ PrefabInstance:
       value: MovingEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 4806757608126166829, guid: e372aeccdf037ca41a53169bee211abb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 60de4a3e9c6640d4a987a6aa5e4c369f, type: 3}
+    - target: {fileID: 4806757608126166829, guid: e372aeccdf037ca41a53169bee211abb, type: 3}
       propertyPath: m_Color.b
-      value: 0.43867922
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4806757608126166829, guid: e372aeccdf037ca41a53169bee211abb, type: 3}
       propertyPath: m_Color.g
-      value: 0.99875164
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4806757608126166829, guid: e372aeccdf037ca41a53169bee211abb, type: 3}
       propertyPath: m_Color.r

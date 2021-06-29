@@ -10,8 +10,9 @@ public class Bullet : MonoBehaviour
     public float cameraSpeed;
     public bool playerBullet;
     public float angle;
-    public Color playerColor;
-    public Color enemyColor;
+
+    public Sprite enemyBulletTexture;
+    public Sprite playerBulletTexture;
     float deltatime;
     public float playerBulletMultiplier;
 
@@ -26,11 +27,11 @@ public class Bullet : MonoBehaviour
         {
             bulletBaseSpeed = -bulletBaseSpeed;
             GetComponent<BoxCollider2D>().size = new Vector3(0.5f, 0.5f, 1);
-            this.GetComponent<Renderer>().material.color = enemyColor;
+            this.GetComponent<SpriteRenderer>().sprite = enemyBulletTexture;
         }
         else
         {
-            this.GetComponent<Renderer>().material.color = playerColor;
+            this.GetComponent<SpriteRenderer>().sprite = playerBulletTexture;
             bulletBaseSpeed = bulletBaseSpeed * playerBulletMultiplier;
         }
 

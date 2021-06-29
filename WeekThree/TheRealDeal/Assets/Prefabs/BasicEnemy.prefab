@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 60de4a3e9c6640d4a987a6aa5e4c369f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,6 +106,7 @@ MonoBehaviour:
   doneExploding: 0
   mainCamera: {fileID: 0}
   main: {fileID: 0}
+  player: {fileID: 0}
   bullet: {fileID: 6442975682231285154, guid: 0a64ed072a2c5784a9455717151a5ca7, type: 3}
   timeFromLastShot: 0
   fireRate: 1

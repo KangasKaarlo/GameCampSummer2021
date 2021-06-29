@@ -56,7 +56,7 @@ public abstract class Enemy : MonoBehaviour
             dying = true;
 
             Destroy(this.GetComponent<SpriteRenderer>());
-            Destroy(this.GetComponent<BoxCollider2D>());
+            Destroy(this.GetComponent<CircleCollider2D>());
             Destroy(this.GetComponent<Rigidbody2D>());
         }
         else
