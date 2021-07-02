@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c0ae120ef9be6d4bb64fc3eb3a4889a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 1
   explosion: {fileID: 7546663253325509294}
   death: {fileID: 8854598363773807498}
   mainCamera: {fileID: 0}

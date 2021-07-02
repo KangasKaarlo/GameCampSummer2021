@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  explosion: {fileID: 1409787125570513398, guid: c7bf532ef67cc9844992b16fc72097ff, type: 3}
-  death: {fileID: 2012784531666232039, guid: 82ed74e7bed1405439a14aa3c8dcc158, type: 3}
+  explosion: {fileID: 8073178180257012258}
+  death: {fileID: 7085086606413824774}
   dying: 0
   doneExploding: 0
   mainCamera: {fileID: 0}
@@ -112,5 +112,15 @@ PrefabInstance:
 --- !u!1 &141897311211320541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1822423123891838033, guid: b3cd6b846d934564e8a80768d3aef325, type: 3}
+  m_PrefabInstance: {fileID: 1779646391234242700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7085086606413824774 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8854598363773807498, guid: b3cd6b846d934564e8a80768d3aef325, type: 3}
+  m_PrefabInstance: {fileID: 1779646391234242700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &8073178180257012258 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7546663253325509294, guid: b3cd6b846d934564e8a80768d3aef325, type: 3}
   m_PrefabInstance: {fileID: 1779646391234242700}
   m_PrefabAsset: {fileID: 0}

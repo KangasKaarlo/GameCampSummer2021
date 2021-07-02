@@ -60,7 +60,7 @@ public class PlayerHitReg : MonoBehaviour
             {
                 gotHitButAintDeadBitch = false;
                 blinkAfterDeathTimer = 0;
-                this.GetComponent<Renderer>().material.color = new Color(this.GetComponent<Renderer>().material.color.r, this.GetComponent<Renderer>().material.color.g, this.GetComponent<Renderer>().material.color.b, 100);
+                GetComponent<SpriteRenderer>().enabled = true;
                 CancelInvoke();
             }
             else
@@ -91,14 +91,13 @@ public class PlayerHitReg : MonoBehaviour
     }
     void Blink()
     {
-        Color current = this.GetComponent<Renderer>().material.color;
-        if (this.GetComponent<Renderer>().material.color.a == 100)
+        if (GetComponent<SpriteRenderer>().enabled)
         {
-            this.GetComponent<Renderer>().material.color = new Color(current.r, current.g, current.b, 0);
+            GetComponent<SpriteRenderer>().enabled = false;
         } 
         else
         {
-            this.GetComponent<Renderer>().material.color = new Color(current.r, current.g, current.b, 100);
+            GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 }

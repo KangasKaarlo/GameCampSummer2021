@@ -38,7 +38,6 @@ public class Sniper : Enemy
             newBullet.GetComponent<Bullet>().playerBullet = false;
             newBullet.GetComponent<Bullet>().bulletBaseSpeed = -newBullet.GetComponent<Bullet>().bulletBaseSpeed;
             newBullet.GetComponent<Bullet>().angle = angles[i];
-            Debug.Log(angles[i]);
 
         }
     }
