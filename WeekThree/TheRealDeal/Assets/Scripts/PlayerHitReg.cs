@@ -87,13 +87,13 @@ public class PlayerHitReg : MonoBehaviour
                 }
 
             }
-        }
+        }//Checks for power ups
         if (collision.gameObject.tag == "PowerUp")
         {
             main.powerUpCount += 1;
             Destroy(collision.gameObject);
         
-        }
+        }//Not yet functioning
         if (collision.gameObject.tag == "Enemy")
         {
             main.playerHealth--;

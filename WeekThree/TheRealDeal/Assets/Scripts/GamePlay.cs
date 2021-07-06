@@ -91,14 +91,7 @@ public class GamePlay : MonoBehaviour
             tmp.GetComponent<Bullet>().angle = 0;
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "PowerUp")
-        {
-            powerUpCount = powerUpCount + 1;
-            Destroy(collision.gameObject);
-        }
-    }
+    
          Vector2 VectorFromAngle (float theta) {
          return new Vector2 (Mathf.Cos(theta), Mathf.Sin(theta)); // Trig is fun
      }
