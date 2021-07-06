@@ -7,9 +7,12 @@ public class GamePlay : MonoBehaviour
 {
     public GameObject player;
     public GameObject bullet;
+    public GameObject powerUp;
+    public float powerUpCount =0f;
     public float playerSpeed;
     public float cameraSpeed;
     public float deltatime;
+
     public Vector2 cameraDimensions;
     public float timeFromLastShot;
     public float fireRate;
@@ -18,8 +21,10 @@ public class GamePlay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        powerUp = GameObject.Find("PowerUp");
         timeFromLastShot = 0f;
         fireRate = 0.2f;
+        //powerUpCount = 0;
         deltatime = Time.deltaTime;
         cameraDimensions = new Vector2 (Camera.main.orthographicSize * 1.77f, Camera.main.orthographicSize);
     }
@@ -29,6 +34,7 @@ public class GamePlay : MonoBehaviour
     {
         deltatime = Time.deltaTime;
         PlayerMovement();
+        //PowerUpCounter();
         if (timeFromLastShot >= fireRate)
         {
             Shoot();
@@ -43,6 +49,7 @@ public class GamePlay : MonoBehaviour
         {
             SceneManager.LoadScene("CoreGameplay");
         }
+        Debug.Log(powerUpCount);
     }
     private void LateUpdate()
     {
@@ -82,6 +89,14 @@ public class GamePlay : MonoBehaviour
             GameObject tmp = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y, 0), Quaternion.identity);
             tmp.GetComponent<Bullet>().playerBullet = true;
             tmp.GetComponent<Bullet>().angle = 0;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "PowerUp")
+        {
+            powerUpCount = powerUpCount + 1;
+            Destroy(collision.gameObject);
         }
     }
          Vector2 VectorFromAngle (float theta) {

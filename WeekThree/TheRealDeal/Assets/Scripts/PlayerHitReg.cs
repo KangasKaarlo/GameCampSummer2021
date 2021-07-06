@@ -88,6 +88,18 @@ public class PlayerHitReg : MonoBehaviour
 
             }
         }
+        if (collision.gameObject.tag == "PowerUp")
+        {
+            main.powerUpCount += 1;
+            Destroy(collision.gameObject);
+        
+        }
+        if (collision.gameObject.tag == "Enemy")
+        {
+            main.playerHealth--;
+            Destroy(collision.gameObject);
+            explosion.Play();
+        }
     }
     void Blink()
     {
