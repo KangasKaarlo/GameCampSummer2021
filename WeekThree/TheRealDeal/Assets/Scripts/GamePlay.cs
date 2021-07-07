@@ -8,7 +8,7 @@ public class GamePlay : MonoBehaviour
     public GameObject player;
     public GameObject bullet;
     public GameObject powerUp;
-    public float powerUpCount =0f;
+    public int powerUpCount = 0;
     public float playerSpeed;
     public float cameraSpeed;
     public float deltatime;
@@ -49,7 +49,6 @@ public class GamePlay : MonoBehaviour
         {
             SceneManager.LoadScene("CoreGameplay");
         }
-        Debug.Log(powerUpCount);
     }
     private void LateUpdate()
     {
@@ -86,9 +85,37 @@ public class GamePlay : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            GameObject tmp = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y, 0), Quaternion.identity);
-            tmp.GetComponent<Bullet>().playerBullet = true;
-            tmp.GetComponent<Bullet>().angle = 0;
+            if (powerUpCount > 2) 
+            {
+                powerUpCount = 2;
+            }
+            switch(powerUpCount){
+                case 0:
+                    GameObject tmp = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y, 0), Quaternion.identity);
+                    tmp.GetComponent<Bullet>().playerBullet = true;
+                    tmp.GetComponent<Bullet>().angle = 0;
+                    break;
+                case 1: 
+                    GameObject tmp2 = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y + 0.5f, 0), Quaternion.identity);
+                    tmp2.GetComponent<Bullet>().playerBullet = true;
+                    tmp2.GetComponent<Bullet>().angle = 0; 
+                    GameObject tmp3 = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y - 0.5f, 0), Quaternion.identity);
+                    tmp3.GetComponent<Bullet>().playerBullet = true;
+                    tmp3.GetComponent<Bullet>().angle = 0;
+                    break;
+                case 2:
+                    GameObject tmp4 = Instantiate(bullet, new Vector3(player.transform.position.x, player.transform.position.y + 0.5f, 0), Quaternion.identity);
+                    tmp4.GetComponent<Bullet>().playerBullet = true;
+                    tmp4.GetComponent<Bullet>().angle = 0; 
+                    GameObject tmp5 = Instantiate(bullet, new Vector3(player.transform.position.x, player.transform.position.y - 0.5f, 0), Quaternion.identity);
+                    tmp5.GetComponent<Bullet>().playerBullet = true;
+                    tmp5.GetComponent<Bullet>().angle = 0;
+                    GameObject tmp6 = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y, 0), Quaternion.identity);
+                    tmp6.GetComponent<Bullet>().playerBullet = true;
+                    tmp6.GetComponent<Bullet>().angle = 0;
+                    break;
+            }
+            
         }
     }
     

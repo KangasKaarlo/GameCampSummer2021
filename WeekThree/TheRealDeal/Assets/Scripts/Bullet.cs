@@ -32,6 +32,11 @@ public class Bullet : MonoBehaviour
         else
         {
             this.GetComponent<SpriteRenderer>().sprite = playerBulletTexture;
+            //makes the powerUpLevel 0 feel sluggish compared to the rest 
+            //gives the player a feeling of pride and accomplishment
+            if (main.powerUpCount > 0) {
+                playerBulletMultiplier = playerBulletMultiplier * 1.1f;
+            }
             bulletBaseSpeed = bulletBaseSpeed * playerBulletMultiplier;
         }
 
@@ -44,7 +49,7 @@ public class Bullet : MonoBehaviour
         deltatime = main.deltatime;
 
         this.transform.position = this.transform.position + new Vector3(cameraSpeed * deltatime, 0, 0);
-
+        
         transform.Translate(VectorFromAngle(angle) * bulletBaseSpeed * deltatime);
         CheckForOutOfBounds();
     }

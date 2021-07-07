@@ -87,13 +87,23 @@ public class PlayerHitReg : MonoBehaviour
                 }
 
             }
-        }//Checks for power ups
+        }
+        //Checks for power ups
         if (collision.gameObject.tag == "PowerUp")
         {
             main.powerUpCount += 1;
             Destroy(collision.gameObject);
-        
-        }//Not yet functioning
+            //Boosts player firerate upon picking up powerups
+            //is configured per poweruplever to avoid insane firerates
+            switch(main.powerUpCount) {
+                case 1:
+                    main.fireRate = main.fireRate * 0.75f;
+                    break;
+                default:
+                    break;
+            }
+        }
+        //Not yet functioning
         if (collision.gameObject.tag == "Enemy")
         {
             main.playerHealth--;
