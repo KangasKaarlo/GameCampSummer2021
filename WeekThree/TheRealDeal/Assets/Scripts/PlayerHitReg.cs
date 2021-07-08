@@ -105,14 +105,22 @@ public class PlayerHitReg : MonoBehaviour
                     break;
             }
         }
-        //Not yet functioning
+        /*//Not yet functioning
         if (collision.gameObject.tag == "Enemy")
         {
             main.playerHealth--;
             Destroy(collision.gameObject);
             explosion.Play();
-        }
+        }*/
     }
+    /*public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            main.playerHealth--;
+            
+        }
+    }*/
     void Blink()
     {
         if (GetComponent<SpriteRenderer>().enabled)
