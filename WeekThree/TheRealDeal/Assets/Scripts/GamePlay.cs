@@ -83,7 +83,7 @@ public class GamePlay : MonoBehaviour
     }
     void Shoot()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && playerHealth > 0)
         {
             if (powerUpCount > 2) 
             {
@@ -110,9 +110,6 @@ public class GamePlay : MonoBehaviour
                     GameObject tmp5 = Instantiate(bullet, new Vector3(player.transform.position.x, player.transform.position.y - 0.5f, 0), Quaternion.identity);
                     tmp5.GetComponent<Bullet>().playerBullet = true;
                     tmp5.GetComponent<Bullet>().angle = 0;
-                    GameObject tmp6 = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y, 0), Quaternion.identity);
-                    tmp6.GetComponent<Bullet>().playerBullet = true;
-                    tmp6.GetComponent<Bullet>().angle = 0;
                     break;
             }
             

@@ -24,7 +24,6 @@ public class PlayerHitReg : MonoBehaviour
         dying = false;
         doneExploding = false;
         gotHitButAintDeadBitch = false;
-        InvokeRepeating("Player", 0, 0.1f);
     }
 
     // Update is called once per frame
@@ -38,7 +37,7 @@ public class PlayerHitReg : MonoBehaviour
             }
             else if (doneExploding)
             {
-                Destroy(this.gameObject);
+                
             }
             else
             {
@@ -98,6 +97,9 @@ public class PlayerHitReg : MonoBehaviour
             switch(main.powerUpCount) {
                 case 1:
                     main.fireRate = main.fireRate * 0.75f;
+                    break;
+                case 2:
+                    main.fireRate = main.fireRate * 0.5f;    
                     break;
                 default:
                     break;
