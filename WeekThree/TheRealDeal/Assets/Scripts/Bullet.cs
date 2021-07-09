@@ -25,6 +25,7 @@ public class Bullet : MonoBehaviour
         deltatime = main.deltatime;
         if (!playerBullet)
         {
+            bulletBaseSpeed = bulletBaseSpeed * 0.75f;
             bulletBaseSpeed = -bulletBaseSpeed;
             GetComponent<BoxCollider2D>().size = new Vector3(0.5f, 0.5f, 1);
             this.GetComponent<SpriteRenderer>().sprite = enemyBulletTexture;

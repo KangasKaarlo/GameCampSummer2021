@@ -3,12 +3,15 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AimerDown
     - AimerUp
+    - BackgroundParallax
     - BasicEnemy
     - Bullet
     - GamePlay
     - LeverGenerator
     - MovingEnemy
+    - MusicManager
     - PlayerHitReg
+    - PowerUps
     - Shotgunner
     - Sniper
     Unity.2D.Animation.Editor.dll:
@@ -35,9 +38,6 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
   sceneClasses:
     Assets/Scenes/CoreGameplay.unity:
     - Class: 1
@@ -60,38 +60,42 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1562}
+      Script: {instanceID: 1952}
     - Class: 114
-      Script: {instanceID: 1902}
+      Script: {instanceID: 1994}
     - Class: 114
-      Script: {instanceID: 1944}
+      Script: {instanceID: 2112}
     - Class: 114
-      Script: {instanceID: 2062}
+      Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 2740}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 2814}
+      Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 3428}
     - Class: 114
-      Script: {instanceID: 3014}
+      Script: {instanceID: 3706}
     - Class: 114
-      Script: {instanceID: 3130}
+      Script: {instanceID: 4062}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 4072}
     - Class: 114
-      Script: {instanceID: 3658}
+      Script: {instanceID: 4686}
     - Class: 114
-      Script: {instanceID: 4014}
+      Script: {instanceID: 4998}
     - Class: 114
-      Script: {instanceID: 4024}
+      Script: {instanceID: 5376}
     - Class: 114
-      Script: {instanceID: 4948}
+      Script: {instanceID: 5638}
     - Class: 114
-      Script: {instanceID: 5586}
+      Script: {instanceID: 28172}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -105,12 +109,6 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -205,7 +203,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: dc151aa02180c1207d1368a961270ef3
+      Hash: 110b390695846d7ba04216084c914687
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GamePlay
@@ -607,6 +605,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
+      Hash: a44c67cc6f5c8159d982cfd343a0c4ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackgroundParallax
+  - hash:
+      serializedVersion: 2
       Hash: b424b4eeb810aecb0ff91c62639241e9
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -727,6 +731,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 672733c5bc9fa5d0b430a4b1e89ed842
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PowerUps
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -793,11 +803,11 @@ ScriptsOnlyBuild:
     className: AmbientOcclusion
   - hash:
       serializedVersion: 2
-      Hash: a44c67cc6f5c8159d982cfd343a0c4ba
+      Hash: 0bf38ff46b8b3256e66a09e805d8a2ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: BackgroundParallax
+    className: MusicManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/CoreGameplay.unity
-  playerPath: "C:/Users/Kaarlo/Documents/TAMK2021/Kes\xE42021/Team7_week4/TheRealDeal.exe"
+  playerPath: "C:/Users/Kaarlo/Documents/TAMK2021/Kes\xE42021/Team7_week5/TheRealDeal.exe"
