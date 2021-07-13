@@ -27,7 +27,7 @@ public class Bullet : MonoBehaviour
         {
             bulletBaseSpeed = bulletBaseSpeed * 0.75f;
             bulletBaseSpeed = -bulletBaseSpeed;
-            GetComponent<BoxCollider2D>().size = new Vector3(0.5f, 0.5f, 1);
+            GetComponent<CircleCollider2D>().radius = 0.25f;
             this.GetComponent<SpriteRenderer>().sprite = enemyBulletTexture;
         }
         else

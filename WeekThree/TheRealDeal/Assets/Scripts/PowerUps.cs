@@ -7,6 +7,7 @@ public class PowerUps : MonoBehaviour
     public GameObject mainCamera;
      public GameObject player;
     public GamePlay main;
+    public float homingSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -21,8 +22,9 @@ public class PowerUps : MonoBehaviour
     void Update()
     {
         CheckForOutOfBounds();
+
     }
-   
+
     void CheckForOutOfBounds()
     {
         if (this.transform.position.x < -main.cameraDimensions.x + mainCamera.transform.position.x - 1 ||

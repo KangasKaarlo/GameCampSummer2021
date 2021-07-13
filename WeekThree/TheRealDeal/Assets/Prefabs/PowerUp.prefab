@@ -99,6 +99,7 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   player: {fileID: 0}
   main: {fileID: 0}
+  homingSpeed: 3
 --- !u!61 &-8386949694758800592
 BoxCollider2D:
   m_ObjectHideFlags: 0
