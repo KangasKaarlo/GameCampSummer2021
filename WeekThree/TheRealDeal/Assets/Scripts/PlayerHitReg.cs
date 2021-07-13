@@ -67,9 +67,24 @@ public class PlayerHitReg : MonoBehaviour
                 blinkAfterDeathTimer += main.deltatime;
             }
         }
-
+        
     }
-
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Enemy")
+        {
+            main.playerHealth--;
+            Destroy(col.gameObject);
+            explosion.Play();
+            if (main.playerHealth > 0)
+                {
+                    gotHitButAintDeadBitch = true;
+                    InvokeRepeating("Blink", 0, 0.1f);
+                }
+        }
+        
+    }
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Bullet")
@@ -105,22 +120,8 @@ public class PlayerHitReg : MonoBehaviour
                     break;
             }
         }
-        /*//Not yet functioning
-        if (collision.gameObject.tag == "Enemy")
-        {
-            main.playerHealth--;
-            Destroy(collision.gameObject);
-            explosion.Play();
-        }*/
     }
-    /*public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Enemy")
-        {
-            main.playerHealth--;
-            
-        }
-    }*/
+   
     void Blink()
     {
         if (GetComponent<SpriteRenderer>().enabled)
