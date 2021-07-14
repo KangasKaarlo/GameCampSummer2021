@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MainMenu.unity
+- path: "C:/Users/Kaarlo/Documents/TAMK2021/Kes\xE42021/GameCampSummer2021/WeekThree/TheRealDeal/Assets/Scenes/CoreGameplay.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -12,21 +12,26 @@ public class GamePlay : MonoBehaviour
     public float playerSpeed;
     public float cameraSpeed;
     public float deltatime;
+    public bool paused;
 
     public Vector2 cameraDimensions;
     public float timeFromLastShot;
     public float fireRate;
     public int playerHealth;
     public float playerSpeedMultiplier;
+
+    public GameObject playerPrefab;
+    public GameObject continueScreen;
     // Start is called before the first frame update
     void Start()
     {
+        paused = false;
         powerUp = GameObject.Find("PowerUp");
         timeFromLastShot = 0f;
         fireRate = 0.2f;
         //powerUpCount = 0;
         deltatime = Time.deltaTime;
-        cameraDimensions = new Vector2 (Camera.main.orthographicSize * 1.77f, Camera.main.orthographicSize);
+        cameraDimensions = new Vector2(Camera.main.orthographicSize * 1.77f, Camera.main.orthographicSize);
     }
 
     // Update is called once per frame
@@ -118,5 +123,21 @@ public class GamePlay : MonoBehaviour
     
          Vector2 VectorFromAngle (float theta) {
          return new Vector2 (Mathf.Cos(theta), Mathf.Sin(theta)); // Trig is fun
-     }
+    }
+    public void Yes()
+    {
+        continueScreen.SetActive(false);
+        playerHealth = 3;
+        Time.timeScale = 1;
+        this.transform.position += new Vector3(-24, 0, 0);
+        player.GetComponent<PlayerHitReg>().dying = false;
+        player.GetComponent<SpriteRenderer>().enabled = true;
+        player.GetComponent<CircleCollider2D>().enabled = true;
+        player.GetComponent<PlayerHitReg>().hitbox.SetActive(true);
+        player.transform.position = new Vector3(this.transform.position.x - 4, 0, player.transform.position.z);
+    }
+    public void No()
+    {
+        Debug.Log("NO");
+    }
 }

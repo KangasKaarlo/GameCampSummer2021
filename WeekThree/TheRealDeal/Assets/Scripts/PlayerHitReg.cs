@@ -8,11 +8,14 @@ public class PlayerHitReg : MonoBehaviour
     public GamePlay main;
     public ParticleSystem explosion;
     public ParticleSystem death;
+    public AudioSource powerUpSound;
 
     public bool dying;
     public bool doneExploding;
     bool gotHitButAintDeadBitch;
     public GameObject hitbox;
+
+    public GameObject continueScreen;
 
     public float blinkAfterDeath;
     float blinkAfterDeathTimer;
@@ -37,7 +40,9 @@ public class PlayerHitReg : MonoBehaviour
             }
             else if (doneExploding)
             {
-                
+                Time.timeScale = 0;
+                continueScreen.SetActive(true);
+                dying = false;
             }
             else
             {
@@ -47,11 +52,14 @@ public class PlayerHitReg : MonoBehaviour
         else if (main.playerHealth <= 0)
         {
             dying = true;
+            this.GetComponent<SpriteRenderer>().enabled = false;
+            this.GetComponent<CircleCollider2D>().enabled = false;
+            hitbox.SetActive(false);
 
-            Destroy(this.GetComponent<SpriteRenderer>());
+            /*Destroy(this.GetComponent<SpriteRenderer>());
             Destroy(this.GetComponent<CircleCollider2D>());
             Destroy(this.GetComponent<Rigidbody2D>());
-            Destroy(hitbox);
+            Destroy(hitbox);/**/
         }
         else if (gotHitButAintDeadBitch)
         {
@@ -71,7 +79,7 @@ public class PlayerHitReg : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Enemy")
+        if (col.gameObject.tag == "Enemy" && !gotHitButAintDeadBitch)
         {
             main.playerHealth--;
             Destroy(col.gameObject);
@@ -105,6 +113,7 @@ public class PlayerHitReg : MonoBehaviour
         //Checks for power ups
         if (collision.gameObject.tag == "PowerUp")
         {
+            powerUpSound.Play();
             main.powerUpCount += 1;
             Destroy(collision.gameObject);
             //Boosts player firerate upon picking up powerups
