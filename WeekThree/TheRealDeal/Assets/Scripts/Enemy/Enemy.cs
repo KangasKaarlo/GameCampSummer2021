@@ -45,6 +45,7 @@ public abstract class Enemy : MonoBehaviour
             else if (doneExploding)
             {
                 Destroy(this.gameObject);
+                ScoreScript.scoreValue += 1000;
             }
             else
             {
