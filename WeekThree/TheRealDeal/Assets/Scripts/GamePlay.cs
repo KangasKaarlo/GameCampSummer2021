@@ -22,6 +22,9 @@ public class GamePlay : MonoBehaviour
 
     public GameObject playerPrefab;
     public GameObject continueScreen;
+
+    public int bombCount;
+    public GameObject bomb;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,10 +53,12 @@ public class GamePlay : MonoBehaviour
             timeFromLastShot += deltatime;
 
         }
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.B) && bombCount > 0)
         {
-            SceneManager.LoadScene("CoreGameplay");
+            bombCount--;
+            Instantiate(bomb, new Vector3(this.transform.position.x - 13, 0, -2), Quaternion.identity);
         }
+
     }
     private void LateUpdate()
     {
@@ -117,7 +122,6 @@ public class GamePlay : MonoBehaviour
                     tmp5.GetComponent<Bullet>().angle = 0;
                     break;
             }
-            
         }
     }
     
@@ -128,6 +132,7 @@ public class GamePlay : MonoBehaviour
     {
         continueScreen.SetActive(false);
         playerHealth = 3;
+        bombCount = 1;
         Time.timeScale = 1;
         this.transform.position += new Vector3(-24, 0, 0);
         player.GetComponent<PlayerHitReg>().dying = false;

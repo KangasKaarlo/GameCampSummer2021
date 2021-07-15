@@ -930,6 +930,8 @@ MonoBehaviour:
   playerSpeedMultiplier: 0.5
   playerPrefab: {fileID: 6147131342785093231, guid: 4fa1fdbd131ac4c44949cbb7f15e3143, type: 3}
   continueScreen: {fileID: 92766352}
+  bombCount: 1
+  bomb: {fileID: 2280503382779793578, guid: 1a228ee272dde3f4fb8045bcf0c98e63, type: 3}
 --- !u!114 &513154526
 MonoBehaviour:
   m_ObjectHideFlags: 0
