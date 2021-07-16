@@ -86,11 +86,18 @@ public class MovingEnemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<Bullet>().playerBullet)
+        if (collision.gameObject.tag == "Bullet")
         {
-            health--;
-            explosion.Play();
-            Destroy(collision.gameObject);
+            if (collision.GetComponent<Bullet>().playerBullet)
+            {
+                health--;
+                explosion.Play();
+                Destroy(collision.gameObject);
+            }
+        }
+        else if (collision.gameObject.tag == "Bomb")
+        {
+            health = 0;
         }
         
     }

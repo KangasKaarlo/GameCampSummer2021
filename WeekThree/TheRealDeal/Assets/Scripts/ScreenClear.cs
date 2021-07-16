@@ -33,7 +33,6 @@ public class ScreenClear : MonoBehaviour
                 Destroy(collision.gameObject);
             }
         }
-        //Checks for power ups
         if (collision.gameObject.tag == "Enemy")
         {
             collision.GetComponent<Enemy>().health = 0;
