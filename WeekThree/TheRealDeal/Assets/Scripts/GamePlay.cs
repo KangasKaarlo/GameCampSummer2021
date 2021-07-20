@@ -25,6 +25,7 @@ public class GamePlay : MonoBehaviour
 
     public int bombCount;
     public GameObject bomb;
+    bool everySecondBullet;
     // Start is called before the first frame update
     void Start()
     {
@@ -95,20 +96,21 @@ public class GamePlay : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && playerHealth > 0)
         {
-            if (powerUpCount > 2) 
+            if (powerUpCount > 3)
             {
-                powerUpCount = 2;
+                powerUpCount = 3;
             }
-            switch(powerUpCount){
+            switch (powerUpCount)
+            {
                 case 0:
                     GameObject tmp = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y, 0), Quaternion.identity);
                     tmp.GetComponent<Bullet>().playerBullet = true;
                     tmp.GetComponent<Bullet>().angle = 0;
                     break;
-                case 1: 
+                case 1:
                     GameObject tmp2 = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y + 0.5f, 0), Quaternion.identity);
                     tmp2.GetComponent<Bullet>().playerBullet = true;
-                    tmp2.GetComponent<Bullet>().angle = 0; 
+                    tmp2.GetComponent<Bullet>().angle = 0;
                     GameObject tmp3 = Instantiate(bullet, new Vector3(player.transform.position.x + 0.5f, player.transform.position.y - 0.5f, 0), Quaternion.identity);
                     tmp3.GetComponent<Bullet>().playerBullet = true;
                     tmp3.GetComponent<Bullet>().angle = 0;
@@ -116,17 +118,34 @@ public class GamePlay : MonoBehaviour
                 case 2:
                     GameObject tmp4 = Instantiate(bullet, new Vector3(player.transform.position.x, player.transform.position.y + 0.5f, 0), Quaternion.identity);
                     tmp4.GetComponent<Bullet>().playerBullet = true;
-                    tmp4.GetComponent<Bullet>().angle = 0; 
+                    tmp4.GetComponent<Bullet>().angle = 0;
                     GameObject tmp5 = Instantiate(bullet, new Vector3(player.transform.position.x, player.transform.position.y - 0.5f, 0), Quaternion.identity);
                     tmp5.GetComponent<Bullet>().playerBullet = true;
                     tmp5.GetComponent<Bullet>().angle = 0;
                     break;
+                case 3:
+                    GameObject tmp6 = Instantiate(bullet, new Vector3(player.transform.position.x, player.transform.position.y + 0.5f, 0), Quaternion.identity);
+                    tmp6.GetComponent<Bullet>().playerBullet = true;
+                    tmp6.GetComponent<Bullet>().angle = 0;
+                    GameObject tmp7 = Instantiate(bullet, new Vector3(player.transform.position.x, player.transform.position.y - 0.5f, 0), Quaternion.identity);
+                    tmp7.GetComponent<Bullet>().playerBullet = true;
+                    tmp7.GetComponent<Bullet>().angle = 0;
+                    if (everySecondBullet)
+                    {
+                        everySecondBullet = false;
+                        GameObject tmp8 = Instantiate(bullet, new Vector3(player.transform.position.x, player.transform.position.y + 0.5f, 0), Quaternion.identity);
+                        tmp8.GetComponent<Bullet>().playerBullet = true;
+                        tmp8.GetComponent<Bullet>().angle = 35;
+                        GameObject tmp9 = Instantiate(bullet, new Vector3(player.transform.position.x, player.transform.position.y - 0.5f, 0), Quaternion.identity);
+                        tmp9.GetComponent<Bullet>().playerBullet = true;
+                        tmp9.GetComponent<Bullet>().angle = -35;
+                    } else
+                    {
+                        everySecondBullet = true;
+                    }
+                    break;
             }
         }
-    }
-    
-         Vector2 VectorFromAngle (float theta) {
-         return new Vector2 (Mathf.Cos(theta), Mathf.Sin(theta)); // Trig is fun
     }
     public void Yes()
     {
