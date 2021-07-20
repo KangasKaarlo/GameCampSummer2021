@@ -139,6 +139,7 @@ public class GamePlay : MonoBehaviour
         player.GetComponent<SpriteRenderer>().enabled = true;
         player.GetComponent<CircleCollider2D>().enabled = true;
         player.GetComponent<PlayerHitReg>().hitbox.SetActive(true);
+        player.GetComponent<PlayerHitReg>().doneExploding = false;
         player.transform.position = new Vector3(this.transform.position.x - 4, 0, player.transform.position.z);
     }
     public void No()
