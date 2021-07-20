@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class GamePlay : MonoBehaviour
 {
@@ -29,6 +30,7 @@ public class GamePlay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         paused = false;
         powerUp = GameObject.Find("PowerUp");
         timeFromLastShot = 0f;
@@ -63,7 +65,7 @@ public class GamePlay : MonoBehaviour
     }
     private void LateUpdate()
     {
-        if(playerHealth > 0)
+        if (playerHealth > 0)
         {
             CameraMovement();
         }
@@ -149,7 +151,9 @@ public class GamePlay : MonoBehaviour
     }
     public void Yes()
     {
-        continueScreen.SetActive(false);
+
+        //continueScreen.SetActive(false);
+        player.GetComponent<PlayerHitReg>().Disable();
         playerHealth = 3;
         bombCount = 1;
         Time.timeScale = 1;

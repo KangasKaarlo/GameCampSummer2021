@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerHitReg : MonoBehaviour
 {
@@ -27,6 +28,7 @@ public class PlayerHitReg : MonoBehaviour
         dying = false;
         doneExploding = false;
         gotHitButAintDeadBitch = false;
+        Disable();
     }
 
     // Update is called once per frame
@@ -41,7 +43,7 @@ public class PlayerHitReg : MonoBehaviour
             else if (doneExploding)
             {
                 Time.timeScale = 0;
-                continueScreen.SetActive(true);
+                Enable();
                 dying = false;
             }
             else
@@ -82,7 +84,7 @@ public class PlayerHitReg : MonoBehaviour
         if (col.gameObject.tag == "Enemy" && !gotHitButAintDeadBitch)
         {
             main.playerHealth--;
-            Destroy(col.gameObject);
+            col.gameObject.GetComponent<Enemy>().health -= 3;
             explosion.Play();
             if (main.playerHealth > 0)
                 {
@@ -141,5 +143,26 @@ public class PlayerHitReg : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().enabled = true;
         }
+    }
+    public void Enable()
+    {
+        continueScreen.GetComponent<CanvasGroup>().alpha = 1.0f;
+        continueScreen.GetComponent<CanvasGroup>().interactable = true;
+        continueScreen.GetComponent<CanvasGroup>().blocksRaycasts = true;
+    }
+    public void Disable()
+    {
+        continueScreen.GetComponent<CanvasGroup>().alpha = 0.0f;
+        //m_canvasGroup.blocksRaycasts = false;
+        //m_canvasGroup.interactable = false;
+        StartCoroutine(DelayedDisable());
+    }
+
+    //Work around button highlighting bug
+    private IEnumerator DelayedDisable()
+    {
+        continueScreen.GetComponent<CanvasGroup>().blocksRaycasts = false;
+        yield return new WaitForSeconds(0.01f);
+        continueScreen.GetComponent<CanvasGroup>().interactable = false;
     }
 }
