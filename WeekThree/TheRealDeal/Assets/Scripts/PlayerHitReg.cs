@@ -20,6 +20,7 @@ public class PlayerHitReg : MonoBehaviour
 
     public float blinkAfterDeath;
     float blinkAfterDeathTimer;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,7 @@ public class PlayerHitReg : MonoBehaviour
         doneExploding = false;
         gotHitButAintDeadBitch = false;
         Disable();
+       
     }
 
     // Update is called once per frame
@@ -84,6 +86,7 @@ public class PlayerHitReg : MonoBehaviour
         if (col.gameObject.tag == "Enemy" && !gotHitButAintDeadBitch)
         {
             main.playerHealth--;
+            
             col.gameObject.GetComponent<Enemy>().health -= 3;
             explosion.Play();
             if (main.playerHealth > 0)
