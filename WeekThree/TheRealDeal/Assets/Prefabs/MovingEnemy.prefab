@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  deathValue: 1000
   explosion: {fileID: 7546663253325509294}
   death: {fileID: 8854598363773807498}
   mainCamera: {fileID: 0}

@@ -155,6 +155,7 @@ public class GamePlay : MonoBehaviour
         //continueScreen.SetActive(false);
         player.GetComponent<PlayerHitReg>().Disable();
         playerHealth = 3;
+        ScoreScript.scoreValue = ScoreScript.scoreValue /2;
         bombCount = 1;
         Time.timeScale = 1;
         this.transform.position += new Vector3(-24, 0, 0);

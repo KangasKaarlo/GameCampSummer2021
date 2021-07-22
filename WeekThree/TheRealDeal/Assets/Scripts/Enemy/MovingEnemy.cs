@@ -5,6 +5,7 @@ using UnityEngine;
 public class MovingEnemy : MonoBehaviour
 {
     public int health;
+    public int deathValue;
     public ParticleSystem explosion;
     public ParticleSystem death;
     Vector3 spawnLocation;
@@ -25,6 +26,7 @@ public class MovingEnemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        deathValue = 1000;
         mainCamera = GameObject.Find("Main Camera");
         main = mainCamera.GetComponent<GamePlay>();
         
@@ -48,6 +50,7 @@ public class MovingEnemy : MonoBehaviour
             else if (doneExploding)
             {
                 Destroy(this.gameObject);
+                ScoreScript.scoreValue += deathValue;
             }
             else
             {
@@ -57,6 +60,7 @@ public class MovingEnemy : MonoBehaviour
         else if (health <= 0)
         {
             dying = true;
+
 
             Destroy(this.GetComponent<SpriteRenderer>());
             Destroy(this.GetComponent<BoxCollider2D>());

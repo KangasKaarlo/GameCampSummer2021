@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  deathValue: 1000
   explosion: {fileID: 7836813938580626736}
   death: {fileID: 7112817427829702383}
   dying: 0

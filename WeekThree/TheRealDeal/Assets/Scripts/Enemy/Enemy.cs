@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
     public int health;
+    public int deathValue;
     public ParticleSystem explosion;
     public ParticleSystem death;
 
@@ -45,7 +46,7 @@ public abstract class Enemy : MonoBehaviour
             else if (doneExploding)
             {
                 Destroy(this.gameObject);
-                ScoreScript.scoreValue += 1000;
+                ScoreScript.scoreValue += deathValue;
             }
             else
             {
@@ -99,12 +100,15 @@ public abstract class Enemy : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<Bullet>().playerBullet)
-        {
+        if (collision.gameObject.tag == "Bullet") {
+            if (collision.GetComponent<Bullet>().playerBullet)
+            {
             health--;
             explosion.Play();
             Destroy(collision.gameObject);
+            }
         }
+        
     }
     
 }
