@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
     public float bulletBaseSpeed;
     public GameObject camera;
     public GamePlay main;
+    public GameObject player;
     public float cameraSpeed;
     public bool playerBullet;
     public float angle;
@@ -16,9 +17,15 @@ public class Bullet : MonoBehaviour
     float deltatime;
     public float playerBulletMultiplier;
 
+    public bool homing;
+    bool homingStarted;
+    public float timeUntillHoming;
+    float timer;
+
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.Find("Player");
         camera = GameObject.Find("Main Camera");
         main = camera.GetComponent<GamePlay>();
         cameraSpeed = main.cameraSpeed;
@@ -35,10 +42,17 @@ public class Bullet : MonoBehaviour
             this.GetComponent<SpriteRenderer>().sprite = playerBulletTexture;
             //makes the powerUpLevel 0 feel sluggish compared to the rest 
             //gives the player a feeling of pride and accomplishment
-            if (main.powerUpCount > 0) {
+            if (main.powerUpCount > 0)
+            {
                 playerBulletMultiplier = playerBulletMultiplier * 1.1f;
             }
             bulletBaseSpeed = bulletBaseSpeed * playerBulletMultiplier;
+        }
+        if (homing)
+        {
+            homingStarted = false;
+            timer = 0;
+            bulletBaseSpeed = bulletBaseSpeed / 2;
         }
 
     }
@@ -53,6 +67,23 @@ public class Bullet : MonoBehaviour
         
         transform.Translate(VectorFromAngle(angle) * bulletBaseSpeed * deltatime);
         CheckForOutOfBounds();
+        if (homing && !homingStarted)
+        {
+            if (timer >= timeUntillHoming)
+            {
+                homingStarted = true;
+                bulletBaseSpeed = bulletBaseSpeed * 3;
+                bulletBaseSpeed = -bulletBaseSpeed;
+                angle = AngleInDeg(this.transform.position, player.transform.position);
+            }
+            else
+            {
+                timer += main.deltatime;
+            }
+            
+            
+        }
+
     }
     void CheckForOutOfBounds()
     {
@@ -67,5 +98,13 @@ public class Bullet : MonoBehaviour
     Vector2 VectorFromAngle(float degree)
     {
         return (Vector2)(Quaternion.Euler(0, 0, degree) * Vector2.right);
+    }
+    public static float AngleInDeg(Vector3 vec1, Vector3 vec2)
+    {
+        return AngleInRad(vec1, vec2) * 180 / Mathf.PI;
+    }
+    public static float AngleInRad(Vector3 vec1, Vector3 vec2)
+    {
+        return Mathf.Atan2(vec2.y - vec1.y, vec2.x - vec1.x);
     }
 }

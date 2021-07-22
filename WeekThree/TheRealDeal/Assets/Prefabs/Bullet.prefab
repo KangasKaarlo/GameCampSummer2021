@@ -100,12 +100,15 @@ MonoBehaviour:
   bulletBaseSpeed: 10
   camera: {fileID: 0}
   main: {fileID: 0}
+  player: {fileID: 0}
   cameraSpeed: 0
   playerBullet: 0
   angle: 0
   enemyBulletTexture: {fileID: 21300000, guid: b032f406ca89eee40bbba91362d6d0b3, type: 3}
   playerBulletTexture: {fileID: 21300000, guid: a8eca0b2b1e358446b95d8eac665f5cd, type: 3}
   playerBulletMultiplier: 4
+  homing: 0
+  timeUntillHoming: 1
 --- !u!61 &-5981061007908526341
 BoxCollider2D:
   m_ObjectHideFlags: 0
