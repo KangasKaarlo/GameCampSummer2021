@@ -5,8 +5,10 @@ ScriptsOnlyBuild:
     - AimerUp
     - BackgroundParallax
     - BasicEnemy
+    - Boss
     - Bullet
     - GamePlay
+    - Health
     - LeverGenerator
     - MovingEnemy
     - MusicManager
@@ -39,14 +41,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -58,6 +52,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/CoreGameplay.unity:
@@ -96,59 +91,65 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1672}
+      Script: {instanceID: 1534}
     - Class: 114
-      Script: {instanceID: 1998}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 2006}
+      Script: {instanceID: 1920}
     - Class: 114
-      Script: {instanceID: 2048}
+      Script: {instanceID: 1928}
     - Class: 114
-      Script: {instanceID: 2166}
+      Script: {instanceID: 1970}
     - Class: 114
-      Script: {instanceID: 2394}
+      Script: {instanceID: 2088}
     - Class: 114
-      Script: {instanceID: 2402}
+      Script: {instanceID: 2316}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 2324}
+    - Class: 114
+      Script: {instanceID: 2766}
+    - Class: 114
+      Script: {instanceID: 2840}
     - Class: 114
       Script: {instanceID: 2918}
     - Class: 114
-      Script: {instanceID: 3010}
+      Script: {instanceID: 2934}
     - Class: 114
-      Script: {instanceID: 3058}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 3232}
+      Script: {instanceID: 3156}
     - Class: 114
-      Script: {instanceID: 3482}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 3530}
     - Class: 114
-      Script: {instanceID: 3706}
+      Script: {instanceID: 3630}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3686}
     - Class: 114
-      Script: {instanceID: 4118}
+      Script: {instanceID: 4042}
     - Class: 114
-      Script: {instanceID: 4128}
+      Script: {instanceID: 4052}
     - Class: 114
-      Script: {instanceID: 4742}
+      Script: {instanceID: 4666}
     - Class: 114
-      Script: {instanceID: 4994}
+      Script: {instanceID: 4918}
     - Class: 114
-      Script: {instanceID: 5054}
+      Script: {instanceID: 4978}
     - Class: 114
-      Script: {instanceID: 5352}
+      Script: {instanceID: 5276}
     - Class: 114
-      Script: {instanceID: 5390}
+      Script: {instanceID: 5314}
     - Class: 114
-      Script: {instanceID: 5434}
+      Script: {instanceID: 5358}
     - Class: 114
-      Script: {instanceID: 5696}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 5938}
+      Script: {instanceID: 5646}
+    - Class: 114
+      Script: {instanceID: 5864}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -171,19 +172,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 5ab533713adae59372fb3e10a585c186
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -276,7 +279,7 @@ ScriptsOnlyBuild:
     className: Vignette
   - hash:
       serializedVersion: 2
-      Hash: f4d6f408806efbb3c84c69b4fdeb9dc0
+      Hash: e48b2027fcfce6f141bf3b5c1e6c74e7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AimerUp
@@ -288,7 +291,7 @@ ScriptsOnlyBuild:
     className: DepthOfField
   - hash:
       serializedVersion: 2
-      Hash: 8ea52fc7f8ac74eb60598b75374b2090
+      Hash: 4beaa4238d94cf54dbe8fe9721be7d45
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BasicEnemy
@@ -366,6 +369,12 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: c71fa17bbb67aaaac94ffeddd8bdd815
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Health
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -396,7 +405,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: f4d6f408806efbb3c84c69b4fdeb9dc0
+      Hash: e48b2027fcfce6f141bf3b5c1e6c74e7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Shotgunner
@@ -558,13 +567,13 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 2636434fb60c080e4a87d5f07323b93e
+      Hash: f63730ba0c5f063807c49b73f24deb65
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bullet
   - hash:
       serializedVersion: 2
-      Hash: f4d6f408806efbb3c84c69b4fdeb9dc0
+      Hash: e48b2027fcfce6f141bf3b5c1e6c74e7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AimerDown
@@ -750,7 +759,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
-      Hash: c31cef95c7028dc71547de3bd2c8f205
+      Hash: d262bc4069ba49557d91dcc3ac34e63f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MovingEnemy
@@ -822,10 +831,16 @@ ScriptsOnlyBuild:
     className: ScreenSpaceReflections
   - hash:
       serializedVersion: 2
-      Hash: 1cf703c6914dc7d56ca3d6e942fa78de
+      Hash: b46aaef691ffb9a00b8a9a48343c368e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Sniper
+  - hash:
+      serializedVersion: 2
+      Hash: 6aa5bc103a86d36fb0d5ac5e9425c40d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Boss
   - hash:
       serializedVersion: 2
       Hash: d5630f96bd5a6a6eed7e1754c3fb8703
@@ -883,4 +898,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/CoreGameplay.unity
-  playerPath: "C:/Users/Kaarlo/Documents/TAMK2021/Kes\xE42021/Team7_week6/TheRealDeal.exe"
+  playerPath: "C:/Users/Kaarlo/Documents/TAMK2021/Kes\xE42021/Team7_week7/TheRealDeal.exe"

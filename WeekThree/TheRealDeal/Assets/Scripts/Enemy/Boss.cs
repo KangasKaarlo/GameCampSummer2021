@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Boss : Enemy
 {
     public Slider healtbar;
+    public Canvas healthCanvas;
     public int numberOfShots;
     bool homing;
     int attackPattern;
@@ -24,6 +25,7 @@ public class Boss : Enemy
             {
                 moving = false;
                 hasEnteredTheSceen = true;
+                //Enable();
             }
 
         }
@@ -250,5 +252,24 @@ public class Boss : Enemy
     public static float AngleInRad(Vector3 vec1, Vector3 vec2)
     {
         return Mathf.Atan2(vec2.y - vec1.y, vec2.x - vec1.x);
+    }
+    public void Enable()
+    {
+        healthCanvas.GetComponent<CanvasGroup>().alpha = 1.0f;
+        healthCanvas.GetComponent<CanvasGroup>().interactable = true;
+        healthCanvas.GetComponent<CanvasGroup>().blocksRaycasts = true;
+    }
+    public void Disable()
+    {
+        healthCanvas.GetComponent<CanvasGroup>().alpha = 0.0f;
+        StartCoroutine(DelayedDisable());
+    }
+
+    //Work around button highlighting bug
+    private IEnumerator DelayedDisable()
+    {
+        healthCanvas.GetComponent<CanvasGroup>().blocksRaycasts = false;
+        yield return new WaitForSeconds(0.01f);
+        healthCanvas.GetComponent<CanvasGroup>().interactable = false;
     }
 }

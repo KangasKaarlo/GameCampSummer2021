@@ -301,7 +301,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1000, y: 14}
+  m_Size: {x: 1354, y: 14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -886,7 +886,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1000.9, y: 14}
+  m_Size: {x: 1567, y: 14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1323,7 +1323,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1500, y: 14}
+  m_Size: {x: 2141.6, y: 14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1406,7 +1406,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 1500, y: 14}
+  m_Size: {x: 3149, y: 14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1546,11 +1546,11 @@ MonoBehaviour:
   - {fileID: 1064312992}
   bombs:
   - {fileID: 1076257582}
-  fullHeart: {fileID: 21300000, guid: 975b996f3acc1fa4589e2eee5782887f, type: 3}
-  emptyHeart: {fileID: 21300000, guid: 849b7a208104eb9479b628d2abd76d79, type: 3}
+  fullHeart: {fileID: 21300000, guid: 34493ac61470f2343a396fe6acd18720, type: 3}
+  emptyHeart: {fileID: 21300000, guid: d68ec80e92d299c43ae81d0f3b1f373c, type: 3}
   numOfBombs: 1
-  bombSprite: {fileID: 21300000, guid: 975b996f3acc1fa4589e2eee5782887f, type: 3}
-  noBombSprite: {fileID: 21300000, guid: 849b7a208104eb9479b628d2abd76d79, type: 3}
+  bombSprite: {fileID: 21300000, guid: 2cf555487ace4b14597c2b3d00ea8413, type: 3}
+  noBombSprite: {fileID: 21300000, guid: 8d2b85128a900734081a3e26dd2a9422, type: 3}
   mainCamera: {fileID: 513154521}
 --- !u!95 &1003648105
 Animator:
@@ -2004,7 +2004,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2970a6dabac8fcc4da1405f0cffda87f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0
+  m_Volume: 0.506
   m_Pitch: 1
   Loop: 1
   Mute: 0
