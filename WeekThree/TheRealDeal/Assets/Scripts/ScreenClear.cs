@@ -35,7 +35,7 @@ public class ScreenClear : MonoBehaviour
         }
         if (collision.gameObject.tag == "Enemy")
         {
-            collision.GetComponent<Enemy>().health = 0;
+            collision.GetComponent<Enemy>().health = -3;
         }
     }
 

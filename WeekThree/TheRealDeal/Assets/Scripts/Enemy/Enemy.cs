@@ -66,7 +66,11 @@ public abstract class Enemy : MonoBehaviour
             Move();
             if (timeFromLastShot >= fireRate)
             {
-                Shoot(ShootingPattern());
+                if (this.transform.position.x > mainCamera.transform.position.x - 4)
+                {
+                    Shoot(ShootingPattern());
+                }
+                
                 timeFromLastShot = 0;
             }
             else

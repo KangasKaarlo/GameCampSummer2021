@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingEnemy : MonoBehaviour
-{
+public class MovingEnemy : Enemy
+{   public float speed;
+    Vector3 spawnLocation;
+    Vector2 dir;
+    /*
     public int health;
     public int deathValue;
     public ParticleSystem explosion;
     public ParticleSystem death;
-    Vector3 spawnLocation;
+    
 
     bool dying;
     bool doneExploding;
@@ -16,13 +19,12 @@ public class MovingEnemy : MonoBehaviour
     public GameObject mainCamera;
     public GamePlay main;
 
-    public float speed;
-    Vector2 dir;
+ 
 
     //variables for shooting
     public GameObject bullet;
     public float timeFromLastShot;
-    public float fireRate;
+    public float fireRate;/**/
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +40,7 @@ public class MovingEnemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
 
         if (dying)
@@ -117,6 +119,21 @@ public class MovingEnemy : MonoBehaviour
         if (this.transform.position.x < -main.cameraDimensions.x + mainCamera.transform.position.x - 1)
         {
             Destroy(this.gameObject);
+        }
+    }/**/
+
+    public override float[] ShootingPattern()
+    {
+        return new float[] { 0 };
+    }
+
+    public override void Move()
+    {
+        this.transform.position += new Vector3(0, dir.y * speed * main.deltatime, 0);
+        if (this.transform.position.y < spawnLocation.y - 2 || this.transform.position.y > spawnLocation.y + 2)
+        {
+            this.transform.position = new Vector3(this.transform.position.x, Mathf.Clamp(this.transform.position.y, spawnLocation.y - 2, spawnLocation.y + 2), 0);
+            speed = -speed;
         }
     }
 }
