@@ -14,6 +14,12 @@ public class Boss : Enemy
     public float speed;
     float currentSpeed;
     bool hasEnteredTheSceen;
+    public WinScreenScript winScreenScript;
+    public void GameWon(){
+        if (health == 0) {
+           
+        }
+    }
 
     public override void Move()
     {

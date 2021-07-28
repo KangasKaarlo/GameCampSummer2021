@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 32714 MB
+OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'fi' Physical Memory: 8144 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,183 +11,1073 @@ C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekThree/TheRealDeal
+C:/Users/Ville/Desktop/GameCamp2021/GameCampSummer2021/WeekThree/TheRealDeal
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50858
-Successfully changed project path to: C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekThree/TheRealDeal
-C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekThree/TheRealDeal
+59281
+Successfully changed project path to: C:/Users/Ville/Desktop/GameCamp2021/GameCampSummer2021/WeekThree/TheRealDeal
+C:/Users/Ville/Desktop/GameCamp2021/GameCampSummer2021/WeekThree/TheRealDeal
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekThree/TheRealDeal/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Ville/Desktop/GameCamp2021/GameCampSummer2021/WeekThree/TheRealDeal/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 5600 XT (ID=0x731f)
+    Renderer: NVIDIA GeForce GTX 950 (ID=0x1402)
     Vendor:   
-    VRAM:     6103 MB
-    Driver:   27.20.22001.14011
+    VRAM:     2007 MB
+    Driver:   27.21.14.5671
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001768 seconds.
+Registered in 0.002436 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.996 seconds
+- Completed reload, in  1.332 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003456 seconds.
+Registered in 0.005421 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BC54500 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C571DCF020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C0D4020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C31B330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C071020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5708FA230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A40640 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570ABB020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570AE8A30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C40CAD0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C071020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5708FA230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C117020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570D74010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C7424A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5707A5020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C40CAD0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570711C30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C9D6320 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BD3A6F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570749020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5708FA230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A99A60 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BFECCB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5706856A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57110F030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57076F230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
+- Completed reload, in  1.396 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2231 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 117.3 MB.
-System memory in use after: 117.3 MB.
+System memory in use after: 117.2 MB.
 
 Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2686.
-Total: 2.185600 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.824000 ms  DeleteObjects: 0.108000 ms)
+Total: 2.496100 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.005600 ms  DeleteObjects: 0.179600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Main Menu.unity
-  artifactKey: Guid(bc1f4b60c3a7fb344ac2772c26e9cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menu.unity using Guid(bc1f4b60c3a7fb344ac2772c26e9cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13faf6d2ce4779e1ee3ce28dec80ec6c') in 0.017846 seconds
-  Import took 0.021136 seconds .
+  path: Assets/Scripts/BackgroundParallax.cs
+  artifactKey: Guid(fd14eaf71e6089d498de85bf92360577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BackgroundParallax.cs using Guid(fd14eaf71e6089d498de85bf92360577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41be69f3792b16df6cbbc9f5a58bad3') in 0.527781 seconds
+  Import took 0.539593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.874112 seconds.
+  path: Assets/Scripts/GamePlay.cs
+  artifactKey: Guid(95b05fd4326183f45a2573746f086297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GamePlay.cs using Guid(95b05fd4326183f45a2573746f086297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895c7023835468f14d64858e272a5ad6') in 0.008230 seconds
+  Import took 0.012328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098196 seconds.
+  path: Assets/Scripts/GamePlay.cs
+  artifactKey: Guid(95b05fd4326183f45a2573746f086297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GamePlay.cs using Guid(95b05fd4326183f45a2573746f086297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895c7023835468f14d64858e272a5ad6') in 0.003801 seconds
+  Import took 0.007757 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003731 seconds.
+Registered in 0.005442 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001C56C567010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A2230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570C0B020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C571DCF020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572309030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575A9FF30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BF0E4B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A9A730 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C567010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C7EB0A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575A95A40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5713C2010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5713C2010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57561A330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575A9FF30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C453010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575A95A40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C574D61020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C1FDA20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570D0C010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5708C3020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A8E030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570C0B020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575FF6770 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C571EB4020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BF1C650 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C574794010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  1.449 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 113.4 MB.
 System memory in use after: 113.4 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2690.
-Total: 2.150700 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.787700 ms  DeleteObjects: 0.102600 ms)
+Total: 2.549700 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.047200 ms  DeleteObjects: 0.137900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003572 seconds.
+Registered in 0.005426 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A2D70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C59B020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5768BF7C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C31B330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575157020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5713C2010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573F41020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A9A730 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C7EB0A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A8BC30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570FFA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570FFA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576892AA0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C567010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C574B76010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C453010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573C0BA20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5750C3030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576048270 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570D0C010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5708C3020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5710F7220 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572281F00 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C7B1F80 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570FFA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573C0BA20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5710F7220 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.950 seconds
+- Completed reload, in  1.444 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 113.5 MB.
-System memory in use after: 113.4 MB.
+System memory in use after: 113.5 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2694.
-Total: 2.610400 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.057500 ms MarkObjects: 2.211700 ms  DeleteObjects: 0.112600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 220.880216 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(0c9d775b8741bf34db8d2a4bf99e6e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(0c9d775b8741bf34db8d2a4bf99e6e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bb3d1969531233ccc599749069bc60') in 0.008996 seconds
-  Import took 0.012420 seconds .
+Total: 2.903100 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.095300 ms MarkObjects: 2.458600 ms  DeleteObjects: 0.123400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003553 seconds.
+Registered in 0.005708 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A07F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5760B6030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C31B330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5976E49C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575A9FF30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C574794010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5976E49C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C597B09880 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C7EB0A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57210F040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57689A450 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C571DCF020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C453010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C597B30890 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5750C3030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570D0C010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576C7AF70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C574794010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575FBDA20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C7B1BC0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57210F040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C597B30890 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573F41020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.959 seconds
+- Completed reload, in  1.511 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 2.625100 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.191600 ms MarkObjects: 2.091500 ms  DeleteObjects: 0.131400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 380.942677 seconds.
+  path: Assets/Scenes/CoreGameplay.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CoreGameplay.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa4ff7a57bf3a2ece8d2580b39c8679') in 0.048647 seconds
+  Import took 0.053123 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010332 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A0430 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575E7E9A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C31B330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A98A70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C574E5BF20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57531B520 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5765B35A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576839030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5750E1690 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C571A97F80 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5768A1F50 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572931020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5982A0CA0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575A55540 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F06CF0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570C8F020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C9D6250 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5754DB8C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572559030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5754EA930 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575692260 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C597DCEDB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3C3BC66B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C597624E20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C069010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 113.5 MB.
 System memory in use after: 113.5 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2699.
-Total: 2.151400 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.773200 ms  DeleteObjects: 0.111600 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 4.001300 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 0.287300 ms MarkObjects: 3.057800 ms  DeleteObjects: 0.185900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005125 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A16F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570C931C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5756BCAE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A98A70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C574E5BF20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57089C400 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5752F53F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573F31010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576DA2020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575302FF0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5768A1F50 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572931020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5982A7030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57277D020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F06CF0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C9BCA30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3C3BC2CB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575305C20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572559030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5754EA930 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570AEC290 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C7B2AC0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3C3BC66B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5976A1020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C069010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.403 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2707.
+Total: 2.702100 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.213800 ms  DeleteObjects: 0.158300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.978372 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(9450af41be153d749b2e3f4f8ffdddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(9450af41be153d749b2e3f4f8ffdddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fcd414fb9473b27cdad1f10614c666') in 0.025120 seconds
-  Import took 0.028202 seconds .
+  Time since last request: 2198.522937 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(0c9d775b8741bf34db8d2a4bf99e6e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(0c9d775b8741bf34db8d2a4bf99e6e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c523e95941dc7a9ca79bd8254ffa2bc') in 0.024299 seconds
+  Import took 0.028471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.745041 seconds.
+  path: Assets/Scripts/WinScreenScript.cs
+  artifactKey: Guid(d8263e9c84882c94db7c1402a6bdac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WinScreenScript.cs using Guid(d8263e9c84882c94db7c1402a6bdac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca3cd7e5fc7847164e7837be6d85e35') in 0.014614 seconds
+  Import took 0.019341 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003765 seconds.
+Registered in 0.005164 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A25F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57546A370 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570C90A90 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5756BCAE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5769C9020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C574E5BF20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57531B520 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5752F53F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573F31010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576DA2020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57546A370 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57589F010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572931020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5768940C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57546A370 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5750C3030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3C3BC2CB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5748EB6E0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572559030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5978857B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57298FC10 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575FF63B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57589F010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A96040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
+- Completed reload, in  1.577 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.6 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2712.
+Total: 2.817800 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.130300 ms MarkObjects: 2.246900 ms  DeleteObjects: 0.127500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017554 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C5987EA010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A0430 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570C98D30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5756BCAE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576D82040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576369050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5752A79C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573F31010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576DA2020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575613F90 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576898E30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5713F8020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572935030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3C3BC5A00 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A46AD0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C597DCF350 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.5 MB.
-System memory in use after: 113.5 MB.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.6 MB.
+System memory in use after: 113.7 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2703.
-Total: 2.188100 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.057300 ms MarkObjects: 1.827000 ms  DeleteObjects: 0.103200 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2716.
+Total: 3.231300 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.137300 ms MarkObjects: 2.670400 ms  DeleteObjects: 0.140100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 633.114415 seconds.
+  path: Assets/Scripts/WinScreenScript.cs
+  artifactKey: Guid(d8263e9c84882c94db7c1402a6bdac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WinScreenScript.cs using Guid(d8263e9c84882c94db7c1402a6bdac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ef1e70caa27e76043191c5d83a7345') in 0.012259 seconds
+  Import took 0.017918 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003478 seconds.
+Registered in 0.005553 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001C57673F010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A29B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57479DE40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C598FD8BE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5756BCAE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570662020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576369050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5754EA930 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5976E49C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5990D9010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5983EFDB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57479DE40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570C9F030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C598FF3090 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57479DE40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5713F8020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575961040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5759F61A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C59885E010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5754EA930 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575363470 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575FB8530 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573D52510 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575E42010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
+- Completed reload, in  1.857 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.5 MB.
-System memory in use after: 113.5 MB.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.6 MB.
+System memory in use after: 113.7 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2706.
-Total: 2.200100 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.795300 ms  DeleteObjects: 0.108200 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2720.
+Total: 2.595400 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.107000 ms MarkObjects: 2.118800 ms  DeleteObjects: 0.122300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 963.042451 seconds.
+  path: Assets/Scripts/Enemy
+  artifactKey: Guid(8b56024f1e05dba40b154915bba9950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy using Guid(8b56024f1e05dba40b154915bba9950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b808203fa46aacbee3f2c2670285c7d6') in 0.026596 seconds
+  Import took 0.031425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.433669 seconds.
+  path: Assets/Prefabs/AimerDown.prefab
+  artifactKey: Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerDown.prefab using Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7c8a788851eeb9da5da1bdd4a836f1') in 0.236760 seconds
+  Import took 0.241744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Prefabs/AimerUp.prefab
+  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c03495dfebfd3c5f1f82c87ee9c8d7') in 0.045290 seconds
+  Import took 0.049963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Prefabs/BasicEnemy.prefab
+  artifactKey: Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BasicEnemy.prefab using Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8ac8160e42c7926f7d390752d2fbbb') in 0.019358 seconds
+  Import took 0.023283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Prefabs/DeathExplosion.prefab
+  artifactKey: Guid(82ed74e7bed1405439a14aa3c8dcc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DeathExplosion.prefab using Guid(82ed74e7bed1405439a14aa3c8dcc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27413fcac754ecdef1bc2cfd0d6310a1') in 0.013385 seconds
+  Import took 0.018861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefabs/MovingEnemy.prefab
+  artifactKey: Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MovingEnemy.prefab using Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52759956b6332bf325ed94ae11a0cf1e') in 0.033230 seconds
+  Import took 0.038475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/PowerUp.prefab
+  artifactKey: Guid(32f237e11de85f840bff5a573d7a3ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PowerUp.prefab using Guid(32f237e11de85f840bff5a573d7a3ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a7fbaf0f10156637a0af085fd84ef7') in 0.024729 seconds
+  Import took 0.029574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/Bomb.prefab
+  artifactKey: Guid(1a228ee272dde3f4fb8045bcf0c98e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bomb.prefab using Guid(1a228ee272dde3f4fb8045bcf0c98e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d264b3add67b1d0ef9efdd8949d77f9') in 0.038958 seconds
+  Import took 0.043063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Prefabs/HitExplosion.prefab
+  artifactKey: Guid(c7bf532ef67cc9844992b16fc72097ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HitExplosion.prefab using Guid(c7bf532ef67cc9844992b16fc72097ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b21d6a727e82ec4f26853024402abb') in 0.011693 seconds
+  Import took 0.015509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(0a64ed072a2c5784a9455717151a5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(0a64ed072a2c5784a9455717151a5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82227fe516ca1b86051a5d434de39b4') in 0.035532 seconds
+  Import took 0.040408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffda1ad1368e159729119ef7abaf6d1') in 0.028217 seconds
+  Import took 0.033760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Prefabs/Boss 1.prefab
+  artifactKey: Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss 1.prefab using Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4284094bf22349ecb721ad3b854550db') in 0.047467 seconds
+  Import took 0.051837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d63fb053048b5543091a10ec13a8f1') in 0.022638 seconds
+  Import took 0.027114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d29fe9b2b2426f96cb5c47eb31c79d1') in 0.036294 seconds
+  Import took 0.040910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d63fb053048b5543091a10ec13a8f1') in 0.014036 seconds
+  Import took 0.018664 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005293 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A07F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C598FD71C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5757304F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C598FC3010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576369050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5757C7040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5710EA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576839030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5750E1690 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C075750 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A4B050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5727A1070 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C598FF46B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F5ED50 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5976C3660 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5715D8040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5754DB8C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C598CE01E0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5757C7040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C599C8D1A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C597DCF170 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570CF31D0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A96040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2731.
+Total: 2.535700 ms (FindLiveObjects: 0.238600 ms CreateObjectMapping: 0.107100 ms MarkObjects: 2.024400 ms  DeleteObjects: 0.164700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006739 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5753A07F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C598FDDA40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5757304F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576D72030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C576369050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C59761C020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5710EA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C573F31010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5742D2040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575A95A40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A4B050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5727A1070 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C598FFF7B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C575F5ED50 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5713F8020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5715D8040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5754DB8C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C572676060 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C59761C020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5976A3680 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C597DCEF90 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C5754D2F70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C570A96040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2735.
+Total: 2.755700 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.102700 ms MarkObjects: 2.267700 ms  DeleteObjects: 0.162900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
