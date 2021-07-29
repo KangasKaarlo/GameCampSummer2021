@@ -16,6 +16,8 @@ public abstract class Enemy : MonoBehaviour
     public GamePlay main;
     public GameObject player;
 
+    public AudioSource deathSound;
+
     //variables for shooting
     public GameObject bullet;
     public float timeFromLastShot;
@@ -51,6 +53,8 @@ public abstract class Enemy : MonoBehaviour
             else
             {
                 death.Play();
+                deathSound.pitch = Random.Range(0.9f, 1.1f);
+                deathSound.Play();
             }
         }
         else if (health <= 0)

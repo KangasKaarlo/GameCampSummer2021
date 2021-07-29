@@ -10,6 +10,7 @@ public class PlayerHitReg : MonoBehaviour
     public ParticleSystem explosion;
     public ParticleSystem death;
     public AudioSource powerUpSound;
+    public AudioSource deathSound;
 
     public bool dying;
     public bool doneExploding;
@@ -51,6 +52,7 @@ public class PlayerHitReg : MonoBehaviour
             else
             {
                 death.Play();
+                deathSound.Play();
             }
         }
         else if (main.playerHealth <= 0)

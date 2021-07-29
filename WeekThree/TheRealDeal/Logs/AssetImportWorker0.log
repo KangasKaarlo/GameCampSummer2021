@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'fi' Physical Memory: 8144 MB
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 32714 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,1073 +11,987 @@ C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Ville/Desktop/GameCamp2021/GameCampSummer2021/WeekThree/TheRealDeal
+C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekThree/TheRealDeal
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59281
-Successfully changed project path to: C:/Users/Ville/Desktop/GameCamp2021/GameCampSummer2021/WeekThree/TheRealDeal
-C:/Users/Ville/Desktop/GameCamp2021/GameCampSummer2021/WeekThree/TheRealDeal
+50576
+Successfully changed project path to: C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekThree/TheRealDeal
+C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekThree/TheRealDeal
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Ville/Desktop/GameCamp2021/GameCampSummer2021/WeekThree/TheRealDeal/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Kaarlo/Documents/TAMK2021/Kesä2021/GameCampSummer2021/WeekThree/TheRealDeal/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 950 (ID=0x1402)
+    Renderer: AMD Radeon RX 5600 XT (ID=0x731f)
     Vendor:   
-    VRAM:     2007 MB
-    Driver:   27.21.14.5671
+    VRAM:     6103 MB
+    Driver:   27.20.22001.14011
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002436 seconds.
+Registered in 0.001705 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
+- Completed reload, in  0.981 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005421 seconds.
+Registered in 0.003653 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BC54500 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C571DCF020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C0D4020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C31B330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C071020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5708FA230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A40640 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570ABB020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570AE8A30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C40CAD0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C071020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5708FA230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C117020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570D74010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C7424A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5707A5020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C40CAD0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570711C30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C9D6320 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BD3A6F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570749020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5708FA230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A99A60 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BFECCB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5706856A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57110F030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57076F230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.396 seconds
+- Completed reload, in  1.073 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2233 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 117.3 MB.
-System memory in use after: 117.2 MB.
+System memory in use after: 117.3 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2686.
-Total: 2.496100 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.005600 ms  DeleteObjects: 0.179600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/BackgroundParallax.cs
-  artifactKey: Guid(fd14eaf71e6089d498de85bf92360577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BackgroundParallax.cs using Guid(fd14eaf71e6089d498de85bf92360577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41be69f3792b16df6cbbc9f5a58bad3') in 0.527781 seconds
-  Import took 0.539593 seconds .
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2688.
+Total: 2.232600 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.803300 ms  DeleteObjects: 0.123300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.874112 seconds.
-  path: Assets/Scripts/GamePlay.cs
-  artifactKey: Guid(95b05fd4326183f45a2573746f086297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GamePlay.cs using Guid(95b05fd4326183f45a2573746f086297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895c7023835468f14d64858e272a5ad6') in 0.008230 seconds
-  Import took 0.012328 seconds .
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(bc1f4b60c3a7fb344ac2772c26e9cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(bc1f4b60c3a7fb344ac2772c26e9cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0bb8fefe2f9d36d38ff3bdbc0791ee') in 0.017233 seconds
+  Import took 0.020650 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.098196 seconds.
-  path: Assets/Scripts/GamePlay.cs
-  artifactKey: Guid(95b05fd4326183f45a2573746f086297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GamePlay.cs using Guid(95b05fd4326183f45a2573746f086297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895c7023835468f14d64858e272a5ad6') in 0.003801 seconds
-  Import took 0.007757 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005442 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C56C567010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A2230 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570C0B020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C571DCF020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572309030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575A9FF30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BF0E4B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A9A730 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C567010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C7EB0A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575A95A40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5713C2010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5713C2010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57561A330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575A9FF30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C453010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575A95A40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C574D61020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C1FDA20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570D0C010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5708C3020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A8E030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570C0B020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575FF6770 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C571EB4020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BF1C650 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C574794010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.449 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.4 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2690.
-Total: 2.549700 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.047200 ms  DeleteObjects: 0.137900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005426 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A2D70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C59B020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5768BF7C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C31B330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575157020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5713C2010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573F41020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A9A730 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C7EB0A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A8BC30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570FFA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570FFA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576892AA0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C567010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C574B76010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C453010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573C0BA20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5750C3030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576048270 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570D0C010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5708C3020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5710F7220 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572281F00 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C7B1F80 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570FFA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573C0BA20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5710F7220 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.5 MB.
-System memory in use after: 113.5 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2694.
-Total: 2.903100 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.095300 ms MarkObjects: 2.458600 ms  DeleteObjects: 0.123400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005708 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A07F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5760B6030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C31B330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5976E49C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575A9FF30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C574794010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5976E49C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C597B09880 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C7EB0A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57210F040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57689A450 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C571DCF020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C453010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C597B30890 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5750C3030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570D0C010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576C7AF70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C574794010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575FBDA20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C7B1BC0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57210F040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C597B30890 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573F41020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.511 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.5 MB.
-System memory in use after: 113.5 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2698.
-Total: 2.625100 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.191600 ms MarkObjects: 2.091500 ms  DeleteObjects: 0.131400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 380.942677 seconds.
+  Time since last request: 8.161432 seconds.
   path: Assets/Scenes/CoreGameplay.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CoreGameplay.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa4ff7a57bf3a2ece8d2580b39c8679') in 0.048647 seconds
-  Import took 0.053123 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010332 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A0430 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575E7E9A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C31B330 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A98A70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C574E5BF20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57531B520 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5765B35A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576839030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5750E1690 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C571A97F80 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5768A1F50 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572931020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5982A0CA0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575A55540 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F06CF0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570C8F020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C9D6250 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5754DB8C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572559030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5754EA930 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575692260 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C597DCEDB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C3C3BC66B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C597624E20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C069010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.568 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.5 MB.
-System memory in use after: 113.5 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2702.
-Total: 4.001300 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 0.287300 ms MarkObjects: 3.057800 ms  DeleteObjects: 0.185900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005125 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A16F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570C931C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5756BCAE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A98A70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C574E5BF20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57089C400 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5752F53F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573F31010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576DA2020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575302FF0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5768A1F50 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572931020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5982A7030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57277D020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F06CF0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C9BCA30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C3C3BC2CB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575305C20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572559030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5754EA930 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570AEC290 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C7B2AC0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C3C3BC66B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5976A1020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C069010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.403 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.5 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2707.
-Total: 2.702100 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.213800 ms  DeleteObjects: 0.158300 ms)
+Start importing Assets/Scenes/CoreGameplay.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e878f02eb852997ae13daba967f0ef9a') in 0.007233 seconds
+  Import took 0.010609 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2198.522937 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(0c9d775b8741bf34db8d2a4bf99e6e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(0c9d775b8741bf34db8d2a4bf99e6e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c523e95941dc7a9ca79bd8254ffa2bc') in 0.024299 seconds
-  Import took 0.028471 seconds .
+  Time since last request: 116.184718 seconds.
+  path: Assets/Textures/bomb.png
+  artifactKey: Guid(2cf555487ace4b14597c2b3d00ea8413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/bomb.png using Guid(2cf555487ace4b14597c2b3d00ea8413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de08829588d806312164ab2be409268e') in 0.097032 seconds
+  Import took 0.100781 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.745041 seconds.
-  path: Assets/Scripts/WinScreenScript.cs
-  artifactKey: Guid(d8263e9c84882c94db7c1402a6bdac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WinScreenScript.cs using Guid(d8263e9c84882c94db7c1402a6bdac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca3cd7e5fc7847164e7837be6d85e35') in 0.014614 seconds
-  Import took 0.019341 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005164 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A25F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57546A370 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570C90A90 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5756BCAE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5769C9020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C574E5BF20 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57531B520 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5752F53F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573F31010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576DA2020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57546A370 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57589F010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572931020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5768940C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57546A370 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5750C3030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C3C3BC2CB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5748EB6E0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572559030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5978857B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57298FC10 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575FF63B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57589F010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A96040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.577 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.6 MB.
-System memory in use after: 113.6 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2712.
-Total: 2.817800 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.130300 ms MarkObjects: 2.246900 ms  DeleteObjects: 0.127500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017554 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C5987EA010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A0430 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570C98D30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5756BCAE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576D82040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576369050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5752A79C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573F31010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576DA2020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575613F90 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576898E30 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5713F8020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572935030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C3C3BC5A00 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A46AD0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C597DCF350 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C072E40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.344 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.6 MB.
-System memory in use after: 113.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2716.
-Total: 3.231300 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.137300 ms MarkObjects: 2.670400 ms  DeleteObjects: 0.140100 ms)
+  Time since last request: 0.000149 seconds.
+  path: Assets/Textures/powerup.png
+  artifactKey: Guid(975b996f3acc1fa4589e2eee5782887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/powerup.png using Guid(975b996f3acc1fa4589e2eee5782887f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1faa95e9531ebba57dd3b34691df3d4') in 0.009659 seconds
+  Import took 0.013141 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 633.114415 seconds.
-  path: Assets/Scripts/WinScreenScript.cs
-  artifactKey: Guid(d8263e9c84882c94db7c1402a6bdac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WinScreenScript.cs using Guid(d8263e9c84882c94db7c1402a6bdac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ef1e70caa27e76043191c5d83a7345') in 0.012259 seconds
-  Import took 0.017918 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005553 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C57673F010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A29B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57479DE40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C598FD8BE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5756BCAE0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570662020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576369050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5754EA930 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5976E49C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5990D9010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5983EFDB0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57479DE40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570C9F030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C598FF3090 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57479DE40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5713F8020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575961040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5759F61A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C59885E010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5754EA930 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575363470 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575FB8530 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56BF9F120 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573D52510 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575E42010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.857 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.6 MB.
-System memory in use after: 113.7 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2720.
-Total: 2.595400 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.107000 ms MarkObjects: 2.118800 ms  DeleteObjects: 0.122300 ms)
+  Time since last request: 0.000177 seconds.
+  path: Assets/Textures/muuri4.png
+  artifactKey: Guid(91ddd47ccb727d244a98a3ad2248540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/muuri4.png using Guid(91ddd47ccb727d244a98a3ad2248540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22094145822b3cd89ca0866277353333') in 0.009442 seconds
+  Import took 0.012655 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 963.042451 seconds.
-  path: Assets/Scripts/Enemy
-  artifactKey: Guid(8b56024f1e05dba40b154915bba9950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy using Guid(8b56024f1e05dba40b154915bba9950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b808203fa46aacbee3f2c2670285c7d6') in 0.026596 seconds
-  Import took 0.031425 seconds .
+  Time since last request: 0.000196 seconds.
+  path: Assets/Textures/mountains_backround_fixed.png
+  artifactKey: Guid(1faba440f4df93742b4dc2ab1ca08a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mountains_backround_fixed.png using Guid(1faba440f4df93742b4dc2ab1ca08a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28d2398693160cb5b4f138325496894') in 0.012255 seconds
+  Import took 0.016274 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.433669 seconds.
-  path: Assets/Prefabs/AimerDown.prefab
-  artifactKey: Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AimerDown.prefab using Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7c8a788851eeb9da5da1bdd4a836f1') in 0.236760 seconds
-  Import took 0.241744 seconds .
+  Time since last request: 0.000171 seconds.
+  path: Assets/Textures/forest_backround_fixed.png
+  artifactKey: Guid(d5aea49aeacb4e34c9d54f9a810bf6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/forest_backround_fixed.png using Guid(d5aea49aeacb4e34c9d54f9a810bf6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e35e14e48a18b75a6d65598506188d5') in 0.011251 seconds
+  Import took 0.014618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Prefabs/AimerUp.prefab
-  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c03495dfebfd3c5f1f82c87ee9c8d7') in 0.045290 seconds
-  Import took 0.049963 seconds .
+  Time since last request: 0.000142 seconds.
+  path: Assets/Textures/heart_spent.png
+  artifactKey: Guid(d68ec80e92d299c43ae81d0f3b1f373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/heart_spent.png using Guid(d68ec80e92d299c43ae81d0f3b1f373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7cea680168c0f448dbc4332f1c4725') in 0.008778 seconds
+  Import took 0.012145 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Prefabs/BasicEnemy.prefab
-  artifactKey: Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BasicEnemy.prefab using Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8ac8160e42c7926f7d390752d2fbbb') in 0.019358 seconds
-  Import took 0.023283 seconds .
+  Time since last request: 0.000202 seconds.
+  path: Assets/Textures/New treeline2.png
+  artifactKey: Guid(3c4653909a3046d4b8b301fd3a6c8772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/New treeline2.png using Guid(3c4653909a3046d4b8b301fd3a6c8772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7983bea8956d0a4a8df3654da7e72f65') in 0.012882 seconds
+  Import took 0.016074 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Prefabs/DeathExplosion.prefab
-  artifactKey: Guid(82ed74e7bed1405439a14aa3c8dcc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DeathExplosion.prefab using Guid(82ed74e7bed1405439a14aa3c8dcc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27413fcac754ecdef1bc2cfd0d6310a1') in 0.013385 seconds
-  Import took 0.018861 seconds .
+  Time since last request: 0.000169 seconds.
+  path: Assets/Textures/muuri 1.png
+  artifactKey: Guid(97b276feea8e6f04381bfb69ab4c07c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/muuri 1.png using Guid(97b276feea8e6f04381bfb69ab4c07c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf46685d47d84fd3e0e4a5e52865d11b') in 0.011556 seconds
+  Import took 0.014862 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Prefabs/MovingEnemy.prefab
-  artifactKey: Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MovingEnemy.prefab using Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52759956b6332bf325ed94ae11a0cf1e') in 0.033230 seconds
-  Import took 0.038475 seconds .
+  Time since last request: 0.000164 seconds.
+  path: Assets/Textures/muuri.png
+  artifactKey: Guid(e93c5c572dedd1449b2302778daddd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/muuri.png using Guid(e93c5c572dedd1449b2302778daddd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e6847666beb2c9d60290c519f99afb') in 0.012126 seconds
+  Import took 0.015324 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Prefabs/PowerUp.prefab
-  artifactKey: Guid(32f237e11de85f840bff5a573d7a3ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PowerUp.prefab using Guid(32f237e11de85f840bff5a573d7a3ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a7fbaf0f10156637a0af085fd84ef7') in 0.024729 seconds
-  Import took 0.029574 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/Textures/powerup_valkoinen.png
+  artifactKey: Guid(849b7a208104eb9479b628d2abd76d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/powerup_valkoinen.png using Guid(849b7a208104eb9479b628d2abd76d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae3d3161ec2676b4a82f2bbb9ec2a1f') in 0.012343 seconds
+  Import took 0.015943 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Prefabs/Bomb.prefab
-  artifactKey: Guid(1a228ee272dde3f4fb8045bcf0c98e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bomb.prefab using Guid(1a228ee272dde3f4fb8045bcf0c98e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d264b3add67b1d0ef9efdd8949d77f9') in 0.038958 seconds
-  Import took 0.043063 seconds .
+  Time since last request: 0.000170 seconds.
+  path: Assets/Textures/taivas.png
+  artifactKey: Guid(19d8632d6fc94b742bc2e823c14309e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/taivas.png using Guid(19d8632d6fc94b742bc2e823c14309e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f8c735e8ac4cf7d02d15c25d2a45e2') in 0.012855 seconds
+  Import took 0.016365 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000178 seconds.
+  path: Assets/Textures/kummajainen.png
+  artifactKey: Guid(60de4a3e9c6640d4a987a6aa5e4c369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/kummajainen.png using Guid(60de4a3e9c6640d4a987a6aa5e4c369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ed04fcd492fd7681e97e8758f5b6e4') in 0.009956 seconds
+  Import took 0.013380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Textures/salmonsnake_boss.png
+  artifactKey: Guid(cfdf1608f8c90304581817bfe0b9d809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/salmonsnake_boss.png using Guid(cfdf1608f8c90304581817bfe0b9d809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da47ba53c266bcb649afe9129ad6af4') in 0.013754 seconds
+  Import took 0.017477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Textures/bombTest.png
+  artifactKey: Guid(8d2b85128a900734081a3e26dd2a9422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/bombTest.png using Guid(8d2b85128a900734081a3e26dd2a9422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f287d87b88aaab4d0976b361853cae71') in 0.008984 seconds
+  Import took 0.012336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Textures/powerup_mustat_reunat.png
+  artifactKey: Guid(05a26ab21c63a6d4c9d2fa399cc6bd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/powerup_mustat_reunat.png using Guid(05a26ab21c63a6d4c9d2fa399cc6bd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d7c9bddb702bd6aca15c07104f662a') in 0.011660 seconds
+  Import took 0.014775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Textures/muuritesti1.png
+  artifactKey: Guid(ea83ddab1ff99c54a8cb893ae3830ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/muuritesti1.png using Guid(ea83ddab1ff99c54a8cb893ae3830ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6e72a389b39907ce2f1ba55c0ad918') in 0.012965 seconds
+  Import took 0.016498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Textures/enemybullet.png
+  artifactKey: Guid(b032f406ca89eee40bbba91362d6d0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/enemybullet.png using Guid(b032f406ca89eee40bbba91362d6d0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961119ed62a2f16356072ca87e142ac6') in 0.011696 seconds
+  Import took 0.014866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Textures/Tulipallo.png
+  artifactKey: Guid(a8eca0b2b1e358446b95d8eac665f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tulipallo.png using Guid(a8eca0b2b1e358446b95d8eac665f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38148b0d976e36d5a0994210e28be6d8') in 0.010917 seconds
+  Import took 0.014132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Textures/New treeline1.png
+  artifactKey: Guid(2c837e9ea39eb6f4a80a672dcfbe7d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/New treeline1.png using Guid(2c837e9ea39eb6f4a80a672dcfbe7d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fd809f38e00d28231fde81543de5fb') in 0.013007 seconds
+  Import took 0.016276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Textures/heart.png
+  artifactKey: Guid(34493ac61470f2343a396fe6acd18720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/heart.png using Guid(34493ac61470f2343a396fe6acd18720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d066e4eb21f299e0c9dd6a08829f09') in 0.010364 seconds
+  Import took 0.013864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Textures/liila_miina.png
+  artifactKey: Guid(73a80e0e6a1350f44bfd8dd3eed1c21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/liila_miina.png using Guid(73a80e0e6a1350f44bfd8dd3eed1c21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61c6e3585f4c26441435bca1ab8f0b1') in 0.009852 seconds
+  Import took 0.012951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Textures/muuritesti2.png
+  artifactKey: Guid(8269c7d995483b249aae0dff72310038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/muuritesti2.png using Guid(8269c7d995483b249aae0dff72310038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd306c7fc8a81c3bc3227ec3ed44cf5b9') in 0.009102 seconds
+  Import took 0.012584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Textures/muuri3.png
+  artifactKey: Guid(4d11cb47b4eb08347a58497ac9dc6fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/muuri3.png using Guid(4d11cb47b4eb08347a58497ac9dc6fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8fbf2b36565d30d4f14fd4f46828a1') in 0.008731 seconds
+  Import took 0.011937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Textures/robocat_bomb.png
+  artifactKey: Guid(57b8eacccc11e664f8a6f8b388a8b8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/robocat_bomb.png using Guid(57b8eacccc11e664f8a6f8b388a8b8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb70f2ac32b8aa7dcea1e7c90275d78') in 0.010108 seconds
+  Import took 0.013669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Textures/pelottava_haamu.png
+  artifactKey: Guid(8884bddb9127c0c4889af3fe6a51c1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/pelottava_haamu.png using Guid(8884bddb9127c0c4889af3fe6a51c1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073a04187b77405d79e8b1698b5203d4') in 0.010039 seconds
+  Import took 0.013222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Textures/velho2.png
+  artifactKey: Guid(6cf7325859c576948867b1aa1c031692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/velho2.png using Guid(6cf7325859c576948867b1aa1c031692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598e2a92c3199e07830342105fb00931') in 0.010630 seconds
+  Import took 0.013734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Textures/bomb_denied.png
+  artifactKey: Guid(fc4240f0105c27e4194dc82138d42323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/bomb_denied.png using Guid(fc4240f0105c27e4194dc82138d42323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334733bf8b253fe462fcc893d2864539') in 0.010040 seconds
+  Import took 0.013470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326845 seconds.
+  path: Assets/Audio/PowerUp.mp3
+  artifactKey: Guid(4b696938e2ced4d478cf07b61d110b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PowerUp.mp3 using Guid(4b696938e2ced4d478cf07b61d110b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2896f7d10e4c2790aa96bf4efc8d46c4') in 0.034009 seconds
+  Import took 0.037604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Audio/touhouOriginal.mp3
+  artifactKey: Guid(2970a6dabac8fcc4da1405f0cffda87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/touhouOriginal.mp3 using Guid(2970a6dabac8fcc4da1405f0cffda87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22429712e19c181991b434080e19f802') in 0.009687 seconds
+  Import took 0.013098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.589679 seconds.
+  path: Assets/Audio/Boom.wav
+  artifactKey: Guid(ef93c90e59281e64cb722ecb0d6533f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Boom.wav using Guid(ef93c90e59281e64cb722ecb0d6533f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a3bc6d6f2691975b251c7060cb45df') in 0.010735 seconds
+  Import took 0.014188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.281810 seconds.
+  path: Assets/Scripts/Enemy
+  artifactKey: Guid(8b56024f1e05dba40b154915bba9950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy using Guid(8b56024f1e05dba40b154915bba9950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cac66ae97fb798b69e91c15b7aaa740') in 0.005802 seconds
+  Import took 0.009764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.863529 seconds.
+  path: Assets/Scripts/Enemy/Enemy.cs
+  artifactKey: Guid(75c2cd0d3b0332f4fb29169bb0311ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Enemy.cs using Guid(75c2cd0d3b0332f4fb29169bb0311ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78752d72914bc63a10e3c6319b5b312') in 0.010725 seconds
+  Import took 0.014054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019889 seconds.
+  path: Assets/Scripts/Enemy/Enemy.cs
+  artifactKey: Guid(75c2cd0d3b0332f4fb29169bb0311ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Enemy.cs using Guid(75c2cd0d3b0332f4fb29169bb0311ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78752d72914bc63a10e3c6319b5b312') in 0.002154 seconds
+  Import took 0.005431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.492416 seconds.
+  path: Assets/Scripts/Enemy/Enemy.cs
+  artifactKey: Guid(75c2cd0d3b0332f4fb29169bb0311ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/Enemy.cs using Guid(75c2cd0d3b0332f4fb29169bb0311ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c702e496d8af46fb118bd01d23fae47') in 0.001949 seconds
+  Import took 0.005410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.6 MB.
+System memory in use after: 116.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2716.
+Total: 2.233900 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.062800 ms MarkObjects: 1.798900 ms  DeleteObjects: 0.118900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.416722 seconds.
+  path: Assets/Prefabs/AimerDown.prefab
+  artifactKey: Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerDown.prefab using Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c999cdd492e8583d1f251adda5fe4f8') in 0.064242 seconds
+  Import took 0.068125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Prefabs/AimerUp.prefab
+  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1015b35799e9d3bd9c4d32850dbdb82e') in 0.012778 seconds
+  Import took 0.016258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Prefabs/BasicEnemy.prefab
+  artifactKey: Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BasicEnemy.prefab using Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dbd058936c6b1b9d2d7f7d3fc1b95d') in 0.013713 seconds
+  Import took 0.017649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Prefabs/DeathExplosion.prefab
+  artifactKey: Guid(82ed74e7bed1405439a14aa3c8dcc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DeathExplosion.prefab using Guid(82ed74e7bed1405439a14aa3c8dcc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabb2f6dc13c3d8accd4cffaedc0fe22') in 0.009048 seconds
+  Import took 0.012755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Prefabs/MovingEnemy.prefab
+  artifactKey: Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MovingEnemy.prefab using Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b04fba2732f2ad6c2b6f677320bf3a') in 0.015426 seconds
+  Import took 0.019331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Prefabs/PowerUp.prefab
+  artifactKey: Guid(32f237e11de85f840bff5a573d7a3ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PowerUp.prefab using Guid(32f237e11de85f840bff5a573d7a3ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39a8544f3342eafc67424ecc96824ac') in 0.010270 seconds
+  Import took 0.013482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Prefabs/Bomb.prefab
+  artifactKey: Guid(1a228ee272dde3f4fb8045bcf0c98e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bomb.prefab using Guid(1a228ee272dde3f4fb8045bcf0c98e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382656bcc66e6f323c4d4ff000673bfd') in 0.012322 seconds
+  Import took 0.016056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
   path: Assets/Prefabs/HitExplosion.prefab
   artifactKey: Guid(c7bf532ef67cc9844992b16fc72097ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HitExplosion.prefab using Guid(c7bf532ef67cc9844992b16fc72097ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b21d6a727e82ec4f26853024402abb') in 0.011693 seconds
-  Import took 0.015509 seconds .
+Start importing Assets/Prefabs/HitExplosion.prefab using Guid(c7bf532ef67cc9844992b16fc72097ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce82448acabaca313d0327da67a0c81c') in 0.008201 seconds
+  Import took 0.011636 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
+  Time since last request: 0.000153 seconds.
   path: Assets/Prefabs/Bullet.prefab
   artifactKey: Guid(0a64ed072a2c5784a9455717151a5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(0a64ed072a2c5784a9455717151a5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82227fe516ca1b86051a5d434de39b4') in 0.035532 seconds
-  Import took 0.040408 seconds .
+Start importing Assets/Prefabs/Bullet.prefab using Guid(0a64ed072a2c5784a9455717151a5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e80026f26a733f123a6eac4963e795') in 0.012466 seconds
+  Import took 0.015628 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
+  Time since last request: 0.000196 seconds.
   path: Assets/Prefabs/Shotgunner.prefab
   artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffda1ad1368e159729119ef7abaf6d1') in 0.028217 seconds
-  Import took 0.033760 seconds .
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651aa5f2a1b114ed618c7b739b4733b7') in 0.016886 seconds
+  Import took 0.021267 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
+  Time since last request: 0.000224 seconds.
   path: Assets/Prefabs/Boss 1.prefab
   artifactKey: Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Boss 1.prefab using Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4284094bf22349ecb721ad3b854550db') in 0.047467 seconds
-  Import took 0.051837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d63fb053048b5543091a10ec13a8f1') in 0.022638 seconds
-  Import took 0.027114 seconds .
+Start importing Assets/Prefabs/Boss 1.prefab using Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37097e9d4f9f5c0d46b532ff813af534') in 0.031011 seconds
+  Import took 0.034777 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000195 seconds.
-  path: Assets/Prefabs/Sniper.prefab
-  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d29fe9b2b2426f96cb5c47eb31c79d1') in 0.036294 seconds
-  Import took 0.040910 seconds .
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb66d268c6db5c2a264b78db001f1d6') in 0.016896 seconds
+  Import took 0.021007 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d63fb053048b5543091a10ec13a8f1') in 0.014036 seconds
-  Import took 0.018664 seconds .
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62465a25ff96689b9ce7ff6b9fb2aeeb') in 0.017211 seconds
+  Import took 0.021142 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005293 seconds.
+Registered in 0.003582 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C573BDE010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A07F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C598FD71C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5757304F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C598FC3010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576369050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5757C7040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5710EA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576839030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5750E1690 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C075750 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A4B050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5727A1070 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C598FF46B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F5ED50 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5976C3660 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5715D8040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5754DB8C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C598CE01E0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5757C7040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C599C8D1A0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C597DCF170 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570CF31D0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A96040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.375 seconds
+- Completed reload, in  0.967 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.7 MB.
+System memory in use before: 116.8 MB.
 System memory in use after: 116.8 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2731.
-Total: 2.535700 ms (FindLiveObjects: 0.238600 ms CreateObjectMapping: 0.107100 ms MarkObjects: 2.024400 ms  DeleteObjects: 0.164700 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2721.
+Total: 2.198500 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.783000 ms  DeleteObjects: 0.117300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.800596 seconds.
+  path: Assets/Prefabs/DeathSound.prefab
+  artifactKey: Guid(5f27606ed9851d64fbb624a14d756ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DeathSound.prefab using Guid(5f27606ed9851d64fbb624a14d756ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8187f9b60a0e197a73775ca69bd7426') in 0.024911 seconds
+  Import took 0.028718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.798245 seconds.
+  path: Assets/Prefabs/AimerDown.prefab
+  artifactKey: Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerDown.prefab using Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9eb678aa45ea5a8898b928cebf0865') in 0.035401 seconds
+  Import took 0.039210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.603392 seconds.
+  path: Assets/Prefabs/AimerUp.prefab
+  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9352c097cddeaf09f91e880b9d3280a2') in 0.009696 seconds
+  Import took 0.013643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.321787 seconds.
+  path: Assets/Prefabs/BasicEnemy.prefab
+  artifactKey: Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BasicEnemy.prefab using Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07202a125c981ae6ecd34a07f3013fc3') in 0.009208 seconds
+  Import took 0.012952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/MovingEnemy.prefab
+  artifactKey: Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MovingEnemy.prefab using Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9311e9b8aa615b4f152dcf791178678') in 0.012318 seconds
+  Import took 0.015794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acc902b21e55af9a198541f6e9d3d56') in 0.012417 seconds
+  Import took 0.016120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f95253006ae6dd31eb557cb714e15e5') in 0.012230 seconds
+  Import took 0.015922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.906427 seconds.
+  path: Assets/Prefabs/Boss 1.prefab
+  artifactKey: Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss 1.prefab using Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2194327383cabc0ced5c9be8888699') in 0.024573 seconds
+  Import took 0.028429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.402025 seconds.
+  path: Assets/Prefabs/MovingEnemy.prefab
+  artifactKey: Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MovingEnemy.prefab using Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d8a6dba7821164054c26d632ef2ef1') in 0.012753 seconds
+  Import took 0.016559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f34ffc0f44399da3d0389ef646cbf79') in 0.011910 seconds
+  Import took 0.016016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85856b519a6b69aeefd2a1f1b7f4c2b3') in 0.012696 seconds
+  Import took 0.016488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.506024 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1470ecc930d7d50845903dc05a433cc4') in 0.013117 seconds
+  Import took 0.017330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.052207 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf29a754f5d23fbfad54c749d9b6b54') in 0.011798 seconds
+  Import took 0.015922 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006739 seconds.
+Registered in 0.003922 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C570A13020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5753A07F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C56C801110 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C598FDDA40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5757304F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576D72030 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C576369050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C59761C020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5710EA020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C573F31010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5742D2040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575A95A40 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A4B050 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5727A1070 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C598FFF7B0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57087C3F0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F01390 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575256020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C575F5ED50 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5713F8020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5715D8040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5754DB8C0 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C572676060 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C59761C020 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5976A3680 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C597DCEF90 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C5754D2F70 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C570A96040 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C57484A010 doesn't match image C:\Users\Ville\Desktop\GameCamp2021\GameCampSummer2021\WeekThree\TheRealDeal\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.379 seconds
+- Completed reload, in  0.973 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.7 MB.
-System memory in use after: 116.8 MB.
+System memory in use before: 116.8 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2726.
+Total: 2.456400 ms (FindLiveObjects: 0.266600 ms CreateObjectMapping: 0.063400 ms MarkObjects: 2.002700 ms  DeleteObjects: 0.122200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2730.
+Total: 2.212600 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.063400 ms MarkObjects: 1.791100 ms  DeleteObjects: 0.112800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.375029 seconds.
+  path: Assets/Prefabs/DeathSound.prefab
+  artifactKey: Guid(5f27606ed9851d64fbb624a14d756ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DeathSound.prefab using Guid(5f27606ed9851d64fbb624a14d756ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641f8fa8ce02e23cbc4e4d8bcf91f2ec') in 0.023794 seconds
+  Import took 0.027483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.515003 seconds.
+  path: Assets/Prefabs/AimerDown.prefab
+  artifactKey: Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerDown.prefab using Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f73ed049fb0c798ebc074b18cfab60a') in 0.035600 seconds
+  Import took 0.039330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.993264 seconds.
+  path: Assets/Prefabs/AimerDown.prefab
+  artifactKey: Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerDown.prefab using Guid(52039aa73b33df14a9fed0c492a96c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339cff32919e7a9f8465b61191e203f4') in 0.009200 seconds
+  Import took 0.012859 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2735.
-Total: 2.755700 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.102700 ms MarkObjects: 2.267700 ms  DeleteObjects: 0.162900 ms)
+Total: 2.402900 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.062500 ms MarkObjects: 1.951400 ms  DeleteObjects: 0.138900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.174203 seconds.
+  path: Assets/Prefabs/AimerUp.prefab
+  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b6eae1dd82723d8611c95db6e28c45') in 0.054284 seconds
+  Import took 0.058112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.984841 seconds.
+  path: Assets/Prefabs/AimerUp.prefab
+  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f431a8b27845606ee1c7a422477b791') in 0.009492 seconds
+  Import took 0.013434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.993637 seconds.
+  path: Assets/Prefabs/AimerUp.prefab
+  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e784b0158a025c5b2aa4ed7c7f899c') in 0.009508 seconds
+  Import took 0.013389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.439201 seconds.
+  path: Assets/Prefabs/AimerUp.prefab
+  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7f1fe6dace639c613ecd8238967620') in 0.009234 seconds
+  Import took 0.013055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.419802 seconds.
+  path: Assets/Prefabs/AimerUp.prefab
+  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0740a1e52b5bfdca72ed15d1632ccebd') in 0.009088 seconds
+  Import took 0.012813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.210577 seconds.
+  path: Assets/Prefabs/AimerUp.prefab
+  artifactKey: Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AimerUp.prefab using Guid(3ff2f35c2845e4649aa248e8e0e48689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed22fd4f0fe9b986a8d3b482650275c8') in 0.010060 seconds
+  Import took 0.013841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.291578 seconds.
+  path: Assets/Prefabs/BasicEnemy.prefab
+  artifactKey: Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BasicEnemy.prefab using Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f199aa0bd51e01a3446fa9aa6a8b533b') in 0.013425 seconds
+  Import took 0.017242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Prefabs/MovingEnemy.prefab
+  artifactKey: Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MovingEnemy.prefab using Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabd8f0fec3cbe19e7b177b709f62d82') in 0.011400 seconds
+  Import took 0.014885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b212c90821ed560e70aa9859bfe3d6') in 0.013091 seconds
+  Import took 0.016918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840d110af63af329e3ed0ae718912455') in 0.012470 seconds
+  Import took 0.016398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.985054 seconds.
+  path: Assets/Prefabs/Boss 1.prefab
+  artifactKey: Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss 1.prefab using Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782d6e5b8c9a47d01082e1610aa10b77') in 0.030788 seconds
+  Import took 0.035415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.625618 seconds.
+  path: Assets/Prefabs/MovingEnemy.prefab
+  artifactKey: Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MovingEnemy.prefab using Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41182615e2f7bf93925e0715a20e471') in 0.010689 seconds
+  Import took 0.014542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e555cc33dd9052213a791815a7df886') in 0.012811 seconds
+  Import took 0.016535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8618211ee90567bc5df6b5e88b7b122') in 0.013336 seconds
+  Import took 0.017170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.550144 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98371ca80c9171f6e71bd1ccbcb65a77') in 0.012407 seconds
+  Import took 0.016408 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2740.
+Total: 2.463000 ms (FindLiveObjects: 0.313100 ms CreateObjectMapping: 0.068100 ms MarkObjects: 1.951500 ms  DeleteObjects: 0.128800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.735388 seconds.
+  path: Assets/Prefabs/BasicEnemy.prefab
+  artifactKey: Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BasicEnemy.prefab using Guid(e372aeccdf037ca41a53169bee211abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb33f7a8cffdd70aa054b7eedb7144a') in 0.052230 seconds
+  Import took 0.055935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Prefabs/MovingEnemy.prefab
+  artifactKey: Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MovingEnemy.prefab using Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83485c4ef4f3669581fcc2e9526d57bb') in 0.011118 seconds
+  Import took 0.014649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82504ec89d67470efbc0442094121292') in 0.012698 seconds
+  Import took 0.016693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f7ad846490db6105795352c3598e90') in 0.014072 seconds
+  Import took 0.018208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.344764 seconds.
+  path: Assets/Prefabs/Boss 1.prefab
+  artifactKey: Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boss 1.prefab using Guid(c04f80a5b4d8be84c82ff79791457198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1108eb486912561c89b882100a3a691') in 0.027593 seconds
+  Import took 0.031366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.036993 seconds.
+  path: Assets/Prefabs/MovingEnemy.prefab
+  artifactKey: Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MovingEnemy.prefab using Guid(b3cd6b846d934564e8a80768d3aef325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452a91c226e137719202bd6dda0e9bd3') in 0.010889 seconds
+  Import took 0.014856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135561bffb93bf0430aa18bf36f7144b') in 0.013701 seconds
+  Import took 0.017889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56fb5c714ddaaedc017b2d308b509b5') in 0.012183 seconds
+  Import took 0.016082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.011437 seconds.
+  path: Assets/Prefabs/Shotgunner.prefab
+  artifactKey: Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shotgunner.prefab using Guid(c1be4e2bd3eadd144af3e7f1278ea965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6251fe29e7242c1622573bde6566dda7') in 0.011838 seconds
+  Import took 0.016323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.536183 seconds.
+  path: Assets/Prefabs/Sniper.prefab
+  artifactKey: Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sniper.prefab using Guid(0d6543a3f74841f48b8756c58d73fdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddc5c7c799858d9e89332d65604ae9c') in 0.011992 seconds
+  Import took 0.016149 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 2.243900 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.063200 ms MarkObjects: 1.792600 ms  DeleteObjects: 0.120800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003483 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2749.
+Total: 2.300900 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.062500 ms MarkObjects: 1.859100 ms  DeleteObjects: 0.121000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2753.
+Total: 2.247200 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.064200 ms MarkObjects: 1.823600 ms  DeleteObjects: 0.114900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 396.420418 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(4fa1fdbd131ac4c44949cbb7f15e3143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee5956c72ee02219fed8d6ab9081917') in 0.053932 seconds
+  Import took 0.057609 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2758.
+Total: 2.226200 ms (FindLiveObjects: 0.259100 ms CreateObjectMapping: 0.062200 ms MarkObjects: 1.779400 ms  DeleteObjects: 0.124400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

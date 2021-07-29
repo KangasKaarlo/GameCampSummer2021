@@ -21,6 +21,7 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   main: {fileID: 0}
   player: {fileID: 0}
+  deathSound: {fileID: 8442751118672486941}
   bullet: {fileID: 6442975682231285154, guid: 0a64ed072a2c5784a9455717151a5ca7, type: 3}
   timeFromLastShot: 0
   fireRate: 2.19
@@ -117,5 +118,10 @@ ParticleSystem:
 --- !u!198 &8073178180257012258 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 7546663253325509294, guid: b3cd6b846d934564e8a80768d3aef325, type: 3}
+  m_PrefabInstance: {fileID: 1779646391234242700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8442751118672486941 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7897131901223422609, guid: b3cd6b846d934564e8a80768d3aef325, type: 3}
   m_PrefabInstance: {fileID: 1779646391234242700}
   m_PrefabAsset: {fileID: 0}
