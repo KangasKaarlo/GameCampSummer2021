@@ -14,12 +14,18 @@ public class Boss : Enemy
     public float speed;
     float currentSpeed;
     bool hasEnteredTheSceen;
-    public WinScreenScript winScreenScript;
-    public void GameWon(){
-        if (health == 0) {
-           
+    public WinScreenScript WinScreenScript;
+    
+    void update()
+    {
+        if(!this.dying)
+        {
+            WinScreenScript.Setup();
         }
     }
+
+    
+    
 
     public override void Move()
     {
@@ -48,6 +54,7 @@ public class Boss : Enemy
 
     public override float[] ShootingPattern()
     {
+        
         float[] output = { };
         float dirToPlayer = AngleInDeg(this.transform.position, player.transform.position) + 180;
         if (!moving)

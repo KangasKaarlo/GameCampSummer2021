@@ -24,6 +24,7 @@ public abstract class Enemy : MonoBehaviour
     public float fireRate;
     public abstract float[] ShootingPattern();
     public abstract void Move();
+    
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,7 @@ public abstract class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (dying)
         {
             if (death.isPlaying)

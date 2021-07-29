@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8b4d9092044a1642bdecf290a771560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 500
+  health: 5
   deathValue: 0
   explosion: {fileID: 4573993410338741113}
   death: {fileID: 6648823840698528891}
