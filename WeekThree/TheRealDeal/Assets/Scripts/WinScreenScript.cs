@@ -7,26 +7,34 @@ public class WinScreenScript : MonoBehaviour
 {
     public Boss Boss;
     public Text pointsText;
-    public ScoreScript scoreScript;
+    public Text grade;
+    public GameObject scoreScript;
     public GameObject winScreen;
-    /*void start() {
-        //winScreen.SetActive(false);
+    void start() {
+
     }
-    void Update() 
+    void Update()
     {
-       Setup();
-    }*/
-    public void Setup() {
-        //if(Boss.doneExploding == !true){
-            winScreen.SetActive(true);
-            Debug.Log("E");
-
-        pointsText.text=ScoreScript.scoreValue.ToString() + " POINTS!";
-        
-        //}
-
-        
+        pointsText.text = ScoreScript.scoreValue + " POINTS! ";
+        if (ScoreScript.scoreValue > 300000)
+        {
+            grade.text = "A+";
+        }
+        else if (ScoreScript.scoreValue > 250000)
+        {
+            grade.text = "A";
+        }
+        else if (ScoreScript.scoreValue > 200000)
+        {
+            grade.text = "B";
+        }
+        else if (ScoreScript.scoreValue > 150000)
+        {
+            grade.text = "C";
+        }
+        else
+        {
+            grade.text = "D";
+        }
     }
-    
-    
 }

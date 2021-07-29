@@ -56,12 +56,11 @@ public class GamePlay : MonoBehaviour
             timeFromLastShot += deltatime;
 
         }
-        if (Input.GetKey(KeyCode.B) && bombCount > 0)
+        if (Input.GetKey(KeyCode.X) && bombCount > 0)
         {
             bombCount--;
             Instantiate(bomb, new Vector3(this.transform.position.x - 13, 0, -2), Quaternion.identity);
         }
-
     }
     private void LateUpdate()
     {
@@ -96,7 +95,7 @@ public class GamePlay : MonoBehaviour
     }
     void Shoot()
     {
-        if (Input.GetKey(KeyCode.Space) && playerHealth > 0)
+        if (Input.GetKey(KeyCode.Z) && playerHealth > 0)
         {
             if (powerUpCount > 3)
             {
@@ -155,7 +154,7 @@ public class GamePlay : MonoBehaviour
         //continueScreen.SetActive(false);
         player.GetComponent<PlayerHitReg>().Disable();
         playerHealth = 3;
-        ScoreScript.scoreValue = ScoreScript.scoreValue -ScoreScript.scoreValue/3;
+        ScoreScript.scoreValue = ScoreScript.scoreValue - 50000;
         bombCount = 1;
         Time.timeScale = 1;
         this.transform.position += new Vector3(-24, 0, 0);

@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8b4d9092044a1642bdecf290a771560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 500
   deathValue: 0
   explosion: {fileID: 4573993410338741113}
   death: {fileID: 6648823840698528891}
@@ -549,12 +549,12 @@ MonoBehaviour:
   bullet: {fileID: 6442975682231285154, guid: 0a64ed072a2c5784a9455717151a5ca7, type: 3}
   timeFromLastShot: 0
   fireRate: 0.3
+  WinScreenScript: {fileID: 0}
   healtbar: {fileID: 2269770841515781618}
   healthCanvas: {fileID: 2269770839541975085}
   numberOfShots: 0
   moving: 1
   speed: 5
-  winScreenScript: {fileID: 0}
 --- !u!1001 &3236547914138088079
 PrefabInstance:
   m_ObjectHideFlags: 0

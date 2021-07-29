@@ -24,19 +24,26 @@ public abstract class Enemy : MonoBehaviour
     public float fireRate;
     public abstract float[] ShootingPattern();
     public abstract void Move();
-    
+    public GameObject WinScreenScript;
 
     // Start is called before the first frame update
     void Start()
     {
+        WinScreenScript = GameObject.Find("ResultScreen");
         mainCamera = GameObject.Find("Main Camera");
         main = mainCamera.GetComponent<GamePlay>();
         timeFromLastShot = 0f;
         dying = false;
         doneExploding = false;
         player = GameObject.Find("Player");
-    }
 
+
+        WinScreenScript.GetComponent<CanvasGroup>().alpha = 0.0f;
+        StartCoroutine(DelayedDisableCanvas());
+
+
+
+    }
     // Update is called once per frame
     void Update()
     {
@@ -120,5 +127,12 @@ public abstract class Enemy : MonoBehaviour
         }
         
     }
-    
+            //Work around button highlighting bug
+        private IEnumerator DelayedDisableCanvas()
+        {
+            WinScreenScript.GetComponent<CanvasGroup>().blocksRaycasts = false;
+            yield return new WaitForSeconds(0.01f);
+        WinScreenScript.GetComponent<CanvasGroup>().interactable = false;
+        }
+
 }

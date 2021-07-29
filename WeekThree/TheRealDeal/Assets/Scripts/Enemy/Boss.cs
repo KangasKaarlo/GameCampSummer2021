@@ -14,18 +14,18 @@ public class Boss : Enemy
     public float speed;
     float currentSpeed;
     bool hasEnteredTheSceen;
-    public WinScreenScript WinScreenScript;
-    
-    void update()
+
+
+    private void LateUpdate()
     {
-        if(!this.dying)
+        if (dying && doneExploding)
         {
-            WinScreenScript.Setup();
+            WinScreenScript.GetComponent<CanvasGroup>().alpha = 1.0f;
+            WinScreenScript.GetComponent<CanvasGroup>().interactable = true;
+            WinScreenScript.GetComponent<CanvasGroup>().blocksRaycasts = true;
         }
     }
 
-    
-    
 
     public override void Move()
     {
@@ -47,9 +47,8 @@ public class Boss : Enemy
             if ((currentSpeed > 0 && this.transform.position.y > 4) || (currentSpeed < 0 && this.transform.position.y < -4))
             {
                 moving = false;
-            } 
+            }
         }
-
     }
 
     public override float[] ShootingPattern()
